@@ -14,7 +14,7 @@
                         <!-- Post Content -->
                         <div class="post-content">
                             <a href="https://www.kominfo.go.id/" class="headline">
-                                <h5>KEMENTRIAN KOMUNIKASI DAN INFORMATIKA</h5>
+                                <h5>BAGUS CAHYO</h5>
                             </a>
                         </div>
                     </div>
