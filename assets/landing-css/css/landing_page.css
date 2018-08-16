@@ -1,25 +1,6 @@
 @font-face {
    /*font-family: "Accius-T-OT-Light-Condensed";*/
-   font-family: "Montserrat", sans-serif;
-   /*src: url('../img/landing_baru/Accius-T-OT-Light-Condensed_1765.ttf');*/
-   src: url('../img/full_page/Accius-T-OT-Light-Condensed_1765.ttf') format('truetype'),
-   	
-   		url('../img/full_page/accius-t-ot-light-condensed_1765-webfont.woff') format('woff'),
-   		url('../img/full_page/accius-t-ot-light-condensed_1765-webfont.woff2') format('woff2'),
-   		url('../img/full_page/accius-t-ot-light-condensed_1765-webfont.eot') format('embedded-opentype'),
-   		url('../img/full_page/accius-t-ot-light-condensed_1765-webfont.svg') format('svg');
-   /*src: url('../img/full_page/Accius-T-OT-Light-Condensed_1765.ttf');
-   src: url('../img/full_page/accius-t-ot-light-condensed_1765-webfont.eot') format('embedded-opentype');*/
-}
-/*background-image: url('./assets/bg.png');*/
-/*html,body{
-	font-family: Accius-T-OT-Light-Condensed;
-	overflow: hidden;
-	background-repeat: no-repeat;
-	max-width:100%;
-	max-height:100%;
-	margin: 0px 0px 0px 0px;
-	}*/
+   font-family: "Montserrat", sans-serif; }
 
 img.kiri {
     float: left;
@@ -42,36 +23,6 @@ img.kanan {
      margin: 5px;
 }
 
-@media (max-width: 600px) {
-img.kiri {
-    height: 40px;
-    width: 39px;
-	}
-	img.kirigaruda {
-    height: 40px;
-    width: 34px;
-	}
-	img.kanan {
-    height: 40px;
-    width: 34px;
-	}
-}
-
-@media (min-width: 601px) and (max-width: 991px) {
-
-img.kiri {
-    height: 49px;
-    width: 49px;
- }
- img.kirigaruda {
-    height: 49px;
-    width: 37px;
- }
- img.kanan {
-    height: 49px;
-    width: 39px;
- }
-}
 hr {
     margin: 50px 0;
 }
@@ -250,42 +201,7 @@ p{
 	width: 10%;
 	cursor: pointer;
 }
-.gelembung_informasi{
-	margin-top: 0px;
-	display: none;
-	background-image: url("../img/landing_baru/drop-down-without-arrow.png");
-	clear: both;
-	max-width: 100%;
-	height: 247px;
-	padding: 4%;
-	background-size: 100% 100%;	
-	box-sizing: border-box;
-}
-.arrow-up {
-	 width: 0; 
-	 height: 0;   
-	 border-bottom: 15px solid #063649;
-	 border-left: 10px solid transparent;
-	 border-right: 10px solid transparent;
-	 margin: auto;
-	 display: none;
-}
 
-.listing{
-	margin-right: 2%;
-	margin-left: 2%;
-	width: 20%;
-	float: left;
-	max-height: 230px;
-	padding: 5px;
-	font-size: 22px;
-	letter-spacing: 1px;
-	/* background-color: #000; */
-}
-.listing a{
-	margin-top: 35px;
-	color: #000;
-}
 .contact{
 	vertical-align: bottom;
 	text-align: center;
@@ -299,18 +215,14 @@ p{
 	font-size: 10px;
 	justify-content: center;
 	
-  	
-
 }
   .icon{
 	height: 20px;
     width: 20px;
     margin:auto;
-   	
 }
  .sosmed{
  	padding-right: 2%;
- 	
  }
 @media (max-height: 350px){
 	.logo img{
@@ -340,29 +252,26 @@ p{
 	.font-wrap{
 		font-size: 8px;
 	}
-	.arrow-up{
-		border-bottom: 5px solid #063649;
-		border-left: 5px solid transparent;
-		border-right: 5px solid transparent;
-	}
-	.gelembung_informasi{
-		height:150px;
-	}
-	.listing{
-		width: 15%;
-	}
-	.listing a{
-		font-size: 8px;
-	}
 	.gotolink{
 		font-size: 8px;
 	        white-space: nowrap;
 	        width: 15%;
 	        padding-top:2px;
 	}
+	img.kiri {
+    height: 40px;
+    width: 39px;
+	}
+	img.kirigaruda {
+    height: 40px;
+    width: 34px;
+	}
+	img.kanan {
+    height: 40px;
+    width: 34px;
+	}
 }
 @media (min-width: 601px) and (max-width: 991px)  { 
-	
 	 .logo img{
 	 	height:125px;
 	 }
@@ -374,26 +283,24 @@ p{
 	.font-wrap{
 		font-size: 12px;
 	}
-	.arrow-up{
-		border-bottom: 8px solid #063649;
-		border-left: 8px solid transparent;
-		border-right: 8px solid transparent;
-	}
-	.gelembung_informasi{
-		max-height:175px;
-	}
-	.listing{
-		width: 15%;
-	}
-	.listing a{
-		font-size: 10px;
-	}
 	.gotolink{
 		font-size: 12px;
 	        white-space: nowrap;
 	        width: 15%;
 	        padding-top:2px;
 	}
+	img.kiri {
+    height: 49px;
+    width: 49px;
+ }
+ img.kirigaruda {
+    height: 49px;
+    width: 37px;
+ }
+ img.kanan {
+    height: 49px;
+    width: 39px;
+ }
 }
 @media (min-width: 992px) and (max-width: 1199px)  {
  	.logo img{
@@ -406,20 +313,6 @@ p{
 	}
 	.font-wrap{
 		font-size: 14px;
-	}
-	.arrow-up{
-		border-bottom: 8px solid #063649;
-		border-left: 8px solid transparent;
-		border-right: 8px solid transparent;
-	}
-	.gelembung_informasi{
-		height:175px;
-	}
-	.listing{
-		width: 15%;
-	}
-	.listing a{
-		font-size: 12px;
 	}
 	.gotolink{
 		font-size: 16px;
@@ -440,20 +333,6 @@ p{
 	.font-wrap{
 		font-size: 18px;
 	}
-	.arrow-up{
-		border-bottom: 10px solid #063649;
-		border-left: 10px solid transparent;
-		border-right: 10px solid transparent;
-	}
-	.gelembung_informasi{
-		height:200px;
-	}
-	.listing{
-		width: 15%;
-	}
-	.listing a{
-		font-size: 16px;
-	}
 	.gotolink{
 		font-size: 18px;
 	        white-space: nowrap;
@@ -472,20 +351,6 @@ p{
 	}
 	.font-wrap{
 		font-size: 22px;
-	}
-	.arrow-up{
-		border-bottom: 10px solid #063649;
-		border-left: 10px solid transparent;
-		border-right: 10px solid transparent;
-	}
-	.gelembung_informasi{
-		height:250px;
-	}
-	.listing{
-		width: 15%;
-	}
-	.listing a{
-		font-size: 20px;
 	}
 	.gotolink{
 		font-size: 22px;
@@ -506,20 +371,6 @@ p{
 	.font-wrap{
 		font-size: 24px;
 	}
-	.arrow-up{
-		border-bottom: 15px solid #063649;
-		border-left: 15px solid transparent;
-		border-right: 15px solid transparent;
-	}
-	.gelembung_informasi{
-		height:250px;
-	}
-	.listing{
-		width: 15%;
-	}
-	.listing a{
-		font-size: 22px;
-	}
 	.gotolink{
 		font-size: 24px;
 	        white-space: nowrap;
@@ -539,20 +390,6 @@ p{
 	.font-wrap{
 		font-size: 28px;
 	}
-	.arrow-up{
-		border-bottom: 17px solid #063649;
-		border-left: 17px solid transparent;
-		border-right: 17px solid transparent;
-	}
-	.gelembung_informasi{
-		height:275px;
-	}
-	.listing{
-		width: 15%;
-	}
-	.listing a{
-		font-size: 28px;
-	}
 	.gotolink{
 		font-size: 28px;
 	        white-space: nowrap;
@@ -570,20 +407,6 @@ p{
 		height: 200px; 
 	}
 	.font-wrap{
-		font-size: 32px;
-	}
-	.arrow-up{
-		border-bottom: 20px solid #063649;
-		border-left: 20px solid transparent;
-		border-right: 20px solid transparent;
-	}
-	.gelembung_informasi{
-		height:350px;
-	}
-	.listing{
-		width: 15%;
-	}
-	.listing a{
 		font-size: 32px;
 	}
 	.gotolink{
