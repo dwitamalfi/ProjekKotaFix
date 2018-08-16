@@ -14,14 +14,9 @@
                         <div class=container> 
                             <div class=row> 
                                 <div class=col-md-12> 
-                                    <h1> 
-                                        <span>Kalender Kota</span>         </h1>
-                                        <ul class="breadcrumb breadcrumb-valign-mid"> 
-                                           <li><a href=index.php>Home</a></li> 
-                                           <li class=active> 
-                                               Agenda 
-                                           </li> 
-                                       </ul> 
+                                    <h2> 
+                                        <span>Kalender Kota</span>         </h2>
+                                        
 
                                    </div> 
                                </div> 

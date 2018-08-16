@@ -14,8 +14,9 @@
                 <!-- ============= Post Content Area ============= -->
               
                 <!-- ========== Sidebar Area ========== -->
-                   <div class="col-md-9">
+                   <div class="col-md-10">
                     <div class="blog-posts">
+                        <h2>Pengumuman</h2>
                         <article class="post post-medium">
                             <div class="row">
                                 <div class="col-md-5"> 
