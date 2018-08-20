@@ -18,22 +18,22 @@
                         
                         <!-- Post Content -->
                         
-                        <div class="post-content">
+                        <div class="post-content" >
                            <div class="row justify-content-center">
                              <div class="col-md-4">
-                                 <div class="post-thumbnail">
+                                 <div class="post-thumbnail" id="skpd">
                                     <a href="http://disdik.batukota.go.id/disdik/">
                                     <img src="<?php echo base_url();?>assets/img/core-img/DISDIK.png" alt=""></a>
                                 </div>
                             </div>
                              <div class="col-md-4">
-                                 <div class="post-thumbnail">
+                                 <div class="post-thumbnail" id="skpd">
                                     <a href="http://dispendukcapil.batukota.go.id/">
                                     <img src="<?php echo base_url();?>assets/img/core-img/DISPENDUKCAPIL.png" alt=""></a>
                                 </div>
                             </div>
                              <div class="col-md-4">
-                                 <div class="post-thumbnail">
+                                 <div class="post-thumbnail" id="skpd">
                                     <a href="http://dpmptsptk.batukota.go.id">
                                     <img src="<?php echo base_url();?>assets/img/core-img/DPMPTSPTK.png" alt=""></a>
                                 </div>
@@ -41,13 +41,13 @@
                         </div><br>
                         <div class="row justify-content-center">
                              <div class="col-md-4">
-                                 <div class="post-thumbnail">
+                                 <div class="post-thumbnail" id="skpd">
                                     <a href="http://dinsos.batukota.go.id">
                                     <img src="<?php echo base_url();?>assets/img/core-img/DINSOS.png" alt=""></a>
                                 </div>
                             </div>
                              <div class="col-md-4">
-                                 <div class="post-thumbnail">
+                                 <div class="post-thumbnail" id="skpd">
                                     <a href="kersra.batukota.go.id">
                                     <img src="<?php echo base_url();?>assets/img/core-img/KESRA.png" alt=""></a>
                                 </div>

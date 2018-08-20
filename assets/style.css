@@ -529,6 +529,11 @@ img {
     z-index: 1; }
     .single-blog-post .post-thumbnail img {
       width: 100%; }
+    #skpd img {
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+      border-radius: 10%;
+    }
+    
     .single-blog-post .post-thumbnail .post-cta {
       position: absolute;
       top: 15px;
