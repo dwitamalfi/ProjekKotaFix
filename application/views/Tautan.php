@@ -9,12 +9,12 @@
                         <!-- Post Thumbnail -->
                         <div class="post-thumbnail">
                             <a href="https://www.kominfo.go.id/" target="_blank">
-                            <img src="<?php echo base_url();?>assets/img/core-img/kominfo-logo.jpg" alt="" >
+                           <img src="<?php echo base_url();?>assets/img/core-img/kemkominfo.png" alt=""></a>
                         </div>
                         <!-- Post Content -->
                         <div class="post-content">
                             <a href="https://www.kominfo.go.id/" class="headline">
-                                <h5>DINAS KOMUNIKASI DAN INFORMATIKA KOTA BATU </h5>
+                                <h5>KEMENTRIAN KOMUNIKASI DAN INFORMATIKA </h5>
                             </a>
                         </div>
                     </div>
@@ -26,7 +26,7 @@
                         <!-- Post Thumbnail -->
                         <div class="post-thumbnail">
                             <a href="https://www.kemendagri.go.id/" target="_blank">
-                            <img src="<?php echo base_url();?>assets/img/core-img/kemendagri-logo.png" alt="">
+                           <img src="<?php echo base_url();?>assets/img/core-img/kemendagri.png" alt=""></a>
                         </div>
                         <!-- Post Content -->
                         <div class="post-content">
@@ -43,7 +43,7 @@
                         <!-- Post Thumbnail -->
                         <div class="post-thumbnail">
                             <a href="https://www.menpan.go.id/site/" target="_blank">
-                            <img src="<?php echo base_url();?>assets/img/core-img/kemenpan-logo.png" alt="">
+                            <img src="<?php echo base_url();?>assets/img/core-img/kemenpan.png" alt=""></a>
                         </div>
                         <!-- Post Content -->
                         <div class="post-content">
