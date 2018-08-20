@@ -6,21 +6,21 @@ img.kiri {
     float: left;
     height: 8%;
     width: 6%;
-    margin: 2px;
+    margin: 10px;
     opacity: 0.7;
 }
 img.kirigaruda {
     float: left;
     height: 8%;
     width: 4%;
-    margin: 2px;
+    margin: 10px, 10px, 10px, 4px;
 }
 
 img.kanan {
     float: right;
-    height: 15%;
-    width: 5.5%;
-     margin: 5px;
+    height: 12%;
+    width: 4.5%;
+     margin: 10px;
 }
 
 hr {
@@ -102,7 +102,7 @@ p{
 }
 
 .logo{
-	max-height: 40%;
+	max-height: 35%;
 	vertical-align: middle;
 	text-align: center;
 	text-decoration: none;
