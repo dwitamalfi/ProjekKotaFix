@@ -26,8 +26,13 @@
     $window.on('scroll', function () {
         if ($window.scrollTop() > 20) {
             $('.header-area').addClass('sticky');
+            document.getElementById("logo").style.height="25px";
+            document.getElementById('navi').style.height="55px";
+
         } else {
             $('.header-area').removeClass('sticky');
+            document.getElementById("logo").style.height="80px";
+            document.getElementById('navi').style.height="100px"
         }
     });
 

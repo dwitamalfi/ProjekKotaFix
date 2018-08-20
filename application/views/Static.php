@@ -25,10 +25,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <a class="navbar-brand" href="<?php echo base_url(); ?>" ><img id="logo" src="<?php echo base_url();?>assets/img/core-img/logo2.png" alt="Logo"> <b>PEMERINTAH</b> KOTA BATU</a>
-                    <nav class="navbar navbar-expand-lg">
+                    
+                    <nav class="navbar navbar-expand-lg" id="navi">
                         <!-- Logo -->
-                        
+                        <a class="navbar-brand" href="<?php echo base_url(); ?>" ><img id="logo" src="<?php echo base_url();?>assets/img/core-img/logo2.png" alt="Logo"> <b>PEMERINTAH</b> KOTA BATU</a>
                         <!-- Navbar Toggler -->
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#worldNav" aria-controls="worldNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                         <!-- Navbar -->
@@ -37,17 +37,18 @@
                                 <li class="nav-item active">
                                     <a class="nav-link" href="<?php echo base_url();?>">Beranda <span class="sr-only">(current)</span></a>
                                 </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Profil</a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="index.html">Visi & Misi</a>
-                                        <a class="dropdown-item" href="catagory.html">Struktur Organisasi</a>
-                                        <a class="dropdown-item" href="<?php echo base_url();?>index.php/Sejarah">Sejarah Kota Batu</a>
-                                        <a class="dropdown-item" href="regular-page.html">Lambang Kota Batu</a>
-                                        <a class="dropdown-item" href="contact.html">Geografis Kota Batu</a>
-                                    </div>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="<?php echo base_url();?>index.php/Sejarah">Sejarah</a>
                                 </li>
-                                <li class="nav-item dropdown" >  
+                                <!-- <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="<?php echo base_url();?>index.php/Sejarah">Sejarah</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="<?php echo base_url();?>index.php/Lambang">Lambang</a>
+                                        <a class="dropdown-item" href="catagory.html">Pimpinan Daerah</a>
+                                        <a class="dropdown-item" href="<?php echo base_url();?>index.php/Sejarah">Peta</a>
+                                    </div>
+                                </li> -->
+                                <!-- <li class="nav-item dropdown">  
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Berita</a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <a class="dropdown-item" href="catagory.html">Umum</a>
@@ -60,15 +61,15 @@
                                         <a class="dropdown-item" href="contact.html">Pertanian</a>
                                         <a class="dropdown-item" href="contact.html">Olahraga</a>
                                     </div>
+                                </li> -->
+                                <li class="nav-item">
+                                    <a class="nav-link" href="<?php echo base_url();?>index.php/Lambang">Lambang</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Lokasi</a>
+                                    <a class="nav-link" href="<?php echo base_url();?>index.php/Pimpinan">Pimpinan </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Informasi Publik</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Organisasi Perangkat Daerah</a>
+                                    <a class="nav-link" href="<?php echo base_url();?>index.php/Peta">Peta</a>
                                 </li>
                             </ul>
                             <!-- Search Form  -->

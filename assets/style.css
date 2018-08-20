@@ -329,20 +329,20 @@ img {
     border-color: #eeeeee;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
-    height: 55px; 
-    background-color: #eeeeee;
+    height: 100px; 
+    
    }
 
 
     .header-area .navbar-brand {
       color: #1d1c1c;
-      background-color: #eeeeee;
+      
       width: 100%
 
     }
 
     #logo {
-      height: 25px;
+      height: 80px;
     }
     .header-area .navbar-brand:hover, .header-area .navbar-brand:focus {
       
@@ -355,11 +355,10 @@ img {
       -webkit-transform: skew(-40deg); -moz-transform: skew(-40deg); -o-transform: skew(-40deg);
         background-color: #d7d7d7;}
       .header-area .navbar .navbar-nav .nav-link {
-        padding: 0.5em 1em;
+        padding: 0.5em 3em;
         font-weight: 500; 
         -webkit-transform: skew(40deg); -moz-transform: skew(40deg); -o-transform: skew(40deg);
-       /*border-bottom: 5px solid red;
-        border-left: 20px solid blue; */
+      
        }
        .header-area .navbar .navbar-nav .nav-link a{
         
