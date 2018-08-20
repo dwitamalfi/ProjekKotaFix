@@ -12,6 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/landing-css/css/search.css">
 	<link rel=stylesheet type="text/css" href="<?php echo base_url();?>assets/landing-css/css/star-animation.css">
 	 <!-- <link rel=stylesheet type="text/css" href="assets/landing-css/css/bootstrap.css"> -->
+	 <meta http-equiv="Cache-control" content="no-cache">
 </head>
 
 <body>

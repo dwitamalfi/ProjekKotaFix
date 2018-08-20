@@ -7,13 +7,14 @@ img.kiri {
     height: 8%;
     width: 6%;
     margin: 10px;
-    opacity: 0.7;
 }
+
 img.kirigaruda {
     float: left;
     height: 8%;
     width: 4%;
-    margin: 10px, 10px, 10px, 4px;
+    margin-top: 10px;
+    margin-left: 4px;
 }
 
 img.kanan {
@@ -102,11 +103,10 @@ p{
 }
 
 .logo{
-	max-height: 35%;
+	max-height: 40%;
 	vertical-align: middle;
 	text-align: center;
 	text-decoration: none;
-	/*border: 1px solid black;*/
 	margin: auto;
 	}
 .panel_menu{
@@ -154,20 +154,17 @@ p{
 	height: 265px;
     width: 265px;
     
-    -webkit-transition: 1s;
      -moz-transition: 1s;
       -ms-transition: 1s;
        -o-transition: 1s;
           transition: 1s;
 
- 	
 }
 .wrap_content:hover{
 	/*background-color: #000;*/ 
-	background-color: #000; 
+	background-color: #b3f3b2; 
 	transition: linear background-color 0.5s;
 
-	-webkit-transform: rotateY(180deg);
      -moz-transform: rotateY(180deg); 
       -ms-transform: rotateY(180deg);
        -o-transform: rotateY(180deg);
