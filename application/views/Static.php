@@ -34,10 +34,10 @@
                         <!-- Navbar -->
                         <div class="collapse navbar-collapse" id="worldNav">
                             <ul class="navbar-nav ml-auto">
-                                <li class="nav-item active">
+                                <li class="nav-item ">
                                     <a class="nav-link" href="<?php echo base_url();?>">Beranda <span class="sr-only">(current)</span></a>
                                 </li>
-                                 <li class="nav-item">
+                                 <li class="nav-item <?php if($this->uri->segment('1')=="Sejarah") {echo "active";}   ?>">
                                     <a class="nav-link" href="<?php echo base_url();?>index.php/Sejarah">Sejarah</a>
                                 </li>
                                 <!-- <li class="nav-item dropdown">
@@ -62,13 +62,13 @@
                                         <a class="dropdown-item" href="contact.html">Olahraga</a>
                                     </div>
                                 </li> -->
-                                <li class="nav-item">
+                                <li class="nav-item <?php if($this->uri->segment('1')=="Lambang") {echo "active";}   ?>">
                                     <a class="nav-link" href="<?php echo base_url();?>index.php/Lambang">Lambang</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo base_url();?>index.php/Pimpinan">Pimpinan </a>
+                                <li class="nav-item <?php if($this->uri->segment('1')=="Pimpinan") {echo "active";}   ?>">
+                                    <a class="nav-link" href="<?php echo base_url();?>index.php/Pimpinan">Pimpinan</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item <?php if($this->uri->segment('1')=="Peta") {echo "active";}   ?>">
                                     <a class="nav-link" href="<?php echo base_url();?>index.php/Peta">Peta</a>
                                 </li>
                             </ul>
