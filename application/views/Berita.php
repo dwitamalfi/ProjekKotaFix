@@ -107,6 +107,26 @@
             </div>
           </div>
         </div>
+        <style>
+          body {
+  padding-top: 15px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.pagination {
+  margin-bottom: 30px;
+}
+        </style>
+
       </div>
       <!-- /.row -->
 
@@ -118,7 +138,7 @@
             <span class="sr-only">Previous</span>
           </a>
         </li>
-        <li class="page-item">
+        <li class="page-item">    
           <a class="page-link" href="#">1</a>
         </li>
         <li class="page-item">
