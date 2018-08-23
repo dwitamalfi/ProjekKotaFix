@@ -20,6 +20,6 @@ class Pemerintahan extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->template->load('Static','Pemerintahan');
+		$this->load->view('Pemerintahan');
 	}
 }

@@ -4,23 +4,23 @@
 
 img.kiri {
     float: left;
-    height: 8%;
-    width: 6%;
+    height: 50px;
+    width: 80px;
     margin: 10px;
 }
 
 img.kirigaruda {
     float: left;
-    height: 8%;
-    width: 4%;
+    height: 52px;
+    width: 47px;
     margin-top: 10px;
     margin-left: 4px;
 }
 
 img.kanan {
     float: right;
-    height: 12%;
-    width: 4.5%;
+    height: 70px;
+    width: 55px;
      margin: 10px;
 }
 
@@ -160,11 +160,31 @@ p{
           transition: 1s;
 
 }
+
+@keyframes bounce { /*lompatlompat*/
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
 .wrap_content:hover{
 	/*background-color: #000;*/ 
+	animation: bounce 1s; /*lompatlompat*/
 <<<<<<< HEAD
 	 
-	transition: linear background-color 0.5s;
+/* Flip
+transition: linear background-color 0.5s;
 	border-radius:20px;
 	opacity: 0.7;
 	-webkit-transform: rotateY(180deg);
@@ -177,7 +197,7 @@ p{
       -ms-transform: rotateY(180deg);
        -o-transform: rotateY(180deg);
           transform: rotateY(180deg);
-
+*/
 }
 .wrap_content_active{
 	background-color: #000; 
@@ -229,6 +249,7 @@ p{
  .sosmed{
  	padding-right: 2%;
  }
+
 @media (max-height: 350px){
 	.logo img{
 	 	height:90px !important;
@@ -243,6 +264,14 @@ p{
 	}
 }
 @media (max-width: 600px) {
+	.contact{
+		font-size: 5.5px;
+	}
+	.icon{
+	height: 12px;
+    width: 12px;
+	}
+
 	*{
 		letter-spacing: 0px;
 	}
@@ -264,19 +293,31 @@ p{
 	        padding-top:2px;
 	}
 	img.kiri {
-    height: 40px;
-    width: 39px;
+    height: 30px;
+    width: 35px;
+    margin-right: 5px;
+    margin-top: 7px;
 	}
 	img.kirigaruda {
-    height: 40px;
-    width: 34px;
+    height: 30px;
+    width: 24px;
+    margin-top: 7px;
+    margin-left: 0px;
 	}
 	img.kanan {
-    height: 40px;
-    width: 34px;
+    height: 35px;
+    width: 24px;
+    margin-top: 7px;
 	}
 }
 @media (min-width: 601px) and (max-width: 991px)  { 
+	.contact{
+		font-size: 8px;
+	}
+	.icon{
+		height: 18px;
+	    width: 18px;
+	}
 	 .logo img{
 	 	height:125px;
 	 }
@@ -295,17 +336,22 @@ p{
 	        padding-top:2px;
 	}
 	img.kiri {
-    height: 49px;
-    width: 49px;
- }
- img.kirigaruda {
-    height: 49px;
-    width: 37px;
- }
- img.kanan {
-    height: 49px;
-    width: 39px;
- }
+    height: 39px;
+    width: 45px;
+    margin-right: 7px;
+    margin-top: 9px;
+	}
+	img.kirigaruda {
+    height: 39px;
+    width: 33px;
+    margin-top: 9px;
+    margin-left: 2px;
+	}
+	img.kanan {
+    height: 44px;
+    width: 33px;
+    margin-top: 9px;
+	}
 }
 @media (min-width: 992px) and (max-width: 1199px)  {
  	.logo img{

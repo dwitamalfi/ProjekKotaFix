@@ -37,7 +37,7 @@
                                 <li class="nav-item ">
                                     <a class="nav-link" href="<?php echo base_url();?>">Beranda <span class="sr-only">(current)</span></a>
                                 </li>
-                                 <li class="nav-item <?php if($this->uri->segment('1')=="Pengumuman") {echo "active";}   ?>">
+                                 <li class="nav-item <?php if($this->uri->segment('1')=="Read_pengumuman") {echo "active";}   ?>">
                                     <a class="nav-link" href="<?php echo base_url();?>index.php/Sejarah">Pengumuman</a>
                                 </li>                                 
                             </ul>
@@ -93,124 +93,17 @@
                                     <div >
                                         <p style="text-align:justify ; ">
                                         -                                                <hr class="invisible short" />
-                                        <a href="<?php echo base_url()?>index.php/Read_pengumuman" class="btn btn-xs btn-primary pull-right" id="selengkapnya">Selengkapnya...</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                        <article class="post-content">
-                            <div class="row">
-                                <div class="col-md-5"> 
-                                    <a class="img-thumbnail lightbox" href="img/acara/20180320152803-1-0-Batang_Art_Festival.jpg" data-plugin-options='{"type":"image"}'>
-                                        <img class="img-responsive" src="img/acara/20180320152803-1-0-Batang_Art_Festival.jpg">
-                                    </a>
-                                </div>         
-                                <div class="col-md-7">
-                                    <div class="post-meta">
-                                        <h2><a href="?p=6&id=104">BATU Art Festival</a></h2>
-                                        <span><i class="fa fa-tag"></i> Acara : Umum</span><br/>
-                                        <span><i class="fa fa-calendar-check-o"></i> Mulai : 20 Apr 2018 Jam 09:00 WIB</span><br/>
-                                        <span><i class="fa fa-calendar-times-o"></i> Selesai : 24 Apr 2018 Jam 22:00 WIB</span><br/>
-                                        <span><i class="fa fa-map-marker"></i> Tempat : Alun-alun Kota Batu</span><br/>
-                                        <span><i class="fa fa-user"></i> Pelaksana : - </span>
-                                    </div>
-                                    <div >
-                                        <p style="text-align:justify">
-                                        -
-                                        <a href="<?php echo base_url()?>index.php/Read_pengumuman" class="btn btn-xs btn-primary pull-right" id="selengkapnya">Selengkapnya...</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                        <article class="post-content">
-                            <div class="row">
-                                <div class="col-md-5"> 
-                                    <a class="img-thumbnail lightbox" href="img/acara/20180320151021-1-0-Festival_Senam_Langkah_Land_Dance.jpg" data-plugin-options='{"type":"image"}'>
-                                        <img class="img-responsive" src="img/acara/20180320151021-1-0-Festival_Senam_Langkah_Land_Dance.jpg">
-                                    </a>
-                                </div>         
-                                <div class="col-md-7">
-                                    <div class="post-meta">
-                                        <h2><a href="?p=6&id=103">Senam Massal </a></h2>
-                                        <span><i class="fa fa-tag"></i> Acara : Umum</span><br/>
-                                        <span><i class="fa fa-calendar-check-o"></i> Mulai : 15 Apr 2018 Jam 06:00 WIB</span><br/>
-                                        <span><i class="fa fa-calendar-times-o"></i> Selesai : 15 Apr 2018 Jam 11:00 WIB</span><br/>
-                                        <span><i class="fa fa-map-marker"></i> Tempat : Alun-Alun Batu</span><br/>
-                                        <span><i class="fa fa-user"></i> Pelaksana : </span>
-                                    </div>
-                                    <div >
-                                        <p style="text-align:justify">
-                                        -                                                <hr class="invisible short" />
-                                        <a href="<?php echo base_url()?>index.php/Read_pengumuman" class="btn btn-xs btn-primary pull-right" id="selengkapnya">Selengkapnya...</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                        <article class="post-content">
-                            <div class="row">
-                                <div class="col-md-5"> 
-                                    <a class="img-thumbnail lightbox" href="img/acara/20180320150709-1-0-Batang_Bershalawat.jpg" data-plugin-options='{"type":"image"}'>
-                                        <img class="img-responsive" src="img/acara/20180320150709-1-0-Batang_Bershalawat.jpg">
-                                    </a>
-                                </div>         
-                                <div class="col-md-7">
-                                    <div class="post-meta">
-                                        <h2><a href="?p=6&id=101">Batu Bershalawat</a></h2>
-                                        <span><i class="fa fa-tag"></i> Acara : Umum</span><br/>
-                                        <span><i class="fa fa-calendar-check-o"></i> Mulai : 14 Apr 2018 Jam 20:00 WIB</span><br/>
-                                        <span><i class="fa fa-calendar-times-o"></i> Selesai : 14 Apr 2018 Jam 23:59 WIB</span><br/>
-                                        <span><i class="fa fa-map-marker"></i> Tempat : </span><br/>
-                                        <span><i class="fa fa-user"></i> Pelaksana : </span>
-                                    </div>
-                                    <div >
-                                        <p style="text-align:justify">
-                                        -                                                <hr class="invisible short" />
-                                        <a href="<?php echo base_url()?>index.php/Read_pengumuman" class="btn btn-xs btn-primary pull-right" id="selengkapnya">Selengkapnya...</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                        <article class="post-content">
-                            <div class="row">
-                                <div class="col-md-5"> 
-                                    <a class="img-thumbnail lightbox" href="img/acara/20180320150840-1-0-Istbat_dan_Nikah_Masal.jpg" data-plugin-options='{"type":"image"}'>
-                                        <img class="img-responsive" src="img/acara/20180320150840-1-0-Istbat_dan_Nikah_Masal.jpg">
-                                    </a>
-                                </div>         
-                                <div class="col-md-7">
-                                    <div class="post-meta">
-                                        <h2><a href="?p=6&id=102">Istbat dan Nikah Masal</a></h2>
-                                        <span><i class="fa fa-tag"></i> Acara : Umum</span><br/>
-                                        <span><i class="fa fa-calendar-check-o"></i> Mulai : 14 Apr 2018 Jam 09:00 WIB</span><br/>
-                                        <span><i class="fa fa-calendar-times-o"></i> Selesai : 14 Apr 2018 Jam 11:00 WIB</span><br/>
-                                        <span><i class="fa fa-map-marker"></i> Tempat : </span><br/>
-                                        <span><i class="fa fa-user"></i> Pelaksana : </span>
-                                    </div>
-                                    <div >
-                                        <p style="text-align:justify">
-                                        -                                                <hr class="invisible short" />
-                                        <a href="<?php echo base_url()?>index.php/Read_pengumuman" class="btn btn-xs btn-primary pull-right" id="selengkapnya">Selengkapnya...</a>
-                                        </p>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                            <hr /hr>
-                        </article>
-                        <ul class="pagination pagination-lg pull-right ">
-                                <li><a href="?p=6&a=1">Previous</a> </li>
-                                <li class=""><a href="#" class="angka previous round"> 1 </a></li>
-                                <li class=""><a href="#" class="angka previous round"> 2 </a></li>
-                                <li class=""><a href="?p=6&a=2" class="angka previous round" >3</a></li>
-                                <li class=""><a href="?p=6&a=21" class="angka previous round" >21</a></li>
-                            <li><a href="?p=6&a=3">Next</a></li> 
-
                             
-                         </ul>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                       
+                        
+                        
+                       
+                       
                     </div>
                 </div>
             </div>

@@ -25,7 +25,10 @@
   padding: 0; }
 
 body {
-  font-family: "Work Sans", sans-serif; }
+  font-family: "Work Sans", sans-serif; 
+  background-color: #E1F1E3;
+
+}
 
 .ubuntu-fonts {
   font-family: "Ubuntu", sans-serif; }
@@ -60,10 +63,9 @@ a {
     transition-duration: 500ms;
     text-decoration: none;
     outline: none;
-    font-size: 14px;
+    /*font-size: 14px;*/
     font-weight: 400;
     color: #0000ff; }
-
 /*#preloader {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -135,6 +137,21 @@ a {
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg); } }*/
+.tombol{
+  height: 180px;
+  position: relative;
+  vertical-align: middle;
+
+  border: 1px solid currentColor;
+  font-size: 1.1rem;
+  margin: 3rem 0;
+  padding: 0.75rem 3rem;
+  cursor: pointer;
+  -webkit-transition: background-color 0.28s ease, color 0.28s ease, box-shadow 0.28s ease;
+  transition: background-color 0.28s ease, color 0.28s ease, box-shadow 0.28s ease;
+  overflow: hidden;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
 ul,
 ol {
   margin: 0; }
@@ -340,7 +357,7 @@ img {
     }
 
     #logo {
-      height: 80px;
+      height: 70px;
     }
     .header-area .navbar-brand:hover, .header-area .navbar-brand:focus {
       
@@ -353,10 +370,10 @@ img {
       -webkit-transform: skew(-40deg); -moz-transform: skew(-40deg); -o-transform: skew(-40deg);
         /*background-color: #d7d7d7;* abu-abu terakhir/
         /*background-color: #b3f3b2;*/
-        background-color: #68cb66;
+        background-color: #DEDEDE;
       }
       .header-area .navbar .navbar-nav .nav-link {
-        color: #1d1c1c;
+        color: black;
         padding: 1.1em 3em;
         font-weight: 500; 
         -webkit-transform: skew(40deg); -moz-transform: skew(40deg); -o-transform: skew(40deg);
@@ -375,11 +392,11 @@ img {
           }
           }
       .header-area .navbar .navbar-nav .nav-item.active .nav-link {
-        color: #1d1c1c;
+        color: white;
          }
       .header-area .navbar .navbar-nav .nav-item.active {
         /*background-color: #54a9d1;biru terakhir*/
-        background-color: #218020;
+        background-color: #8AB48F;
         }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .header-area .navbar .navbar-nav {
@@ -388,12 +405,13 @@ img {
           } }
   .header-area.sticky {
     /*background-color: #eeeeee;*/
-    background-color: #b3f3b2;
+    /*background-color: #b3f3b2;*/
+    background-color: #DEDEDE;
     margin-top: 0;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15); }
     .header-area.sticky .navbar {
       /*border-color: #eeeeee;*/
-       border-color: #b3f3b2;
+       border-color: #DEDEDE;
      }
 
 .navbar-toggler-icon {
@@ -592,6 +610,7 @@ img {
       .single-blog-post .post-thumbnail .video-btn:hover i, .single-blog-post .post-thumbnail .video-btn:focus i {
         color: #0000ff; }
   .single-blog-post .post-content {
+
     padding: 20px 30px; }
     .single-blog-post .post-content .headline h5 {
       font-size: 18px;
@@ -873,7 +892,9 @@ img {
     margin-top: 30px; }
 .single-blog-content .post-content {
   padding: 60px 55px;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15); }
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+  background-color:white;
+   }
   @media only screen and (max-width: 767px) {
     .single-blog-content .post-content {
       padding: 30px 25px; } }
@@ -1271,7 +1292,7 @@ textarea:focus ~ .highlight {
     transform: rotate(-45deg) scaleX(0) translateY(-10px); } }
 /* Footer Area CSS */
 .footer-area {
-  background-color: #eeeeee;
+  background-color: #DEDEDE;
   padding: 70px 0;
   position: relative;
   z-index: 1; }
@@ -1330,6 +1351,41 @@ textarea:focus ~ .highlight {
         font-size: 14px;
         color: #959595; }
 
+        /*STYLE HALAMAN PENGUMUMAN*/
+.angka {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    
+}
+
+.angka:hover {
+   background-color: #ddd;
+    color: black;
+}
+
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.next {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.round {
+    border-radius: 50%;
+}
+#selengkapnya {
+  background-color: #8AB48F;
+  border-color: #8AB48F;
+}
+#selengkapnya:hover{
+  background-color: #8AB48F;
+  color: black;
+  border-color: #8AB48F;
+}
       
 
 /*# sourceMappingURL=style.css.map */
