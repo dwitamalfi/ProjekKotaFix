@@ -56,16 +56,15 @@
     <div class="main-content-wrapper section-padding-100">
         <div class="container">
             <!-- ============== Related Post ============== -->
-
     <div class="row">
-        <div class="col-md-4" tombol>
-            <a href="#" class="btn btn-lg btn-block btn-info tombol" role="button">BATT (Batu Among Tani Teknologi) </a>
+        <div class="col-md-4">
+            <a href="http://batt.batukota.go.id" target="_blank" class="btn btn-lg btn-block btn-info tombol" role="button"><br><br> BATT <br>(Batu Among Tani Teknologi)</a>
         </div>
         <div class="col-md-4">
-            <a href="#" class="btn btn-lg btn-block btn-info tombol" role="button">Among Tani</a>
+            <a href="http://batu-city-living.au-syd.mybluemix.net/ " target="_blank" class="btn btn-lg btn-block btn-info tombol" role="button"><br><br>Among Tani</a>
         </div>
         <div class="col-md-4">
-            <a href="#" class="btn btn-lg btn-block btn-info tombol" role="button">Among Warga</a>
+            <a href="#" class="btn btn-lg btn-block btn-info tombol" role="button"><br><br>Among Warga</a>
         </div>
     </div>
 
