@@ -351,8 +351,9 @@ img {
     .header-area .navbar .navbar-nav {
       margin-right: 5px; 
       -webkit-transform: skew(-40deg); -moz-transform: skew(-40deg); -o-transform: skew(-40deg);
-        background-color: #d7d7d7;
+        /*background-color: #d7d7d7;* abu-abu terakhir/
         /*background-color: #b3f3b2;*/
+        background-color: #68cb66;
       }
       .header-area .navbar .navbar-nav .nav-link {
         color: #1d1c1c;
@@ -377,7 +378,8 @@ img {
         color: #1d1c1c;
          }
       .header-area .navbar .navbar-nav .nav-item.active {
-        background-color: #54a9d1;
+        /*background-color: #54a9d1;biru terakhir*/
+        background-color: #218020;
         }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .header-area .navbar .navbar-nav {
@@ -385,11 +387,14 @@ img {
 
           } }
   .header-area.sticky {
-    background-color: #eeeeee;
+    /*background-color: #eeeeee;*/
+    background-color: #b3f3b2;
     margin-top: 0;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15); }
     .header-area.sticky .navbar {
-      border-color: #eeeeee; }
+      /*border-color: #eeeeee;*/
+       border-color: #b3f3b2;
+     }
 
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
