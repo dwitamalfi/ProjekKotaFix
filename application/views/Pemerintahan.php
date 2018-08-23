@@ -69,10 +69,11 @@
                             
                         </div>
                     </div>
+     
                 </div>
 
-                <!-- ========== Sidebar Area ========== -->
                 
+      
             </div>
 
             <!-- ============== Related Post ============== -->
@@ -149,9 +150,10 @@
                 </div>
             </div>
 
-            
         </div>
-    </div>
+    
+    </div> 
+
 
     <!-- ***** Footer Area Start ***** -->
  

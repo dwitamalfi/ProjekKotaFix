@@ -145,13 +145,43 @@
                                     
                                 </div>
                             </div>
+                            <hr /hr>
                         </article>
-                        <ul class="pagination pagination-lg pull-right">
-                                <li><a href="?p=6&a=1">«</a></li>
-                                <li class=""><a href="?p=6&a=1">1</a></li>
-                                <li class="active"><a href="?p=6&a=2">2</a></li>
-                                <li class=""><a href="?p=6&a=21">21</a></li>
-                            <li><a href="?p=6&a=3">»</a></li>
+                        <ul class="pagination pagination-lg pull-right ">
+                                <li><a href="?p=6&a=1">Previous</a> </li>
+                                <li class=""><a href="#" class="previous round"> 1 </a></li>
+                                <li class=""><a href="#" class="previous round"> 2 </a></li>
+                                <li class="active"><a href="?p=6&a=2" class="previous round" >3</a></li>
+                                <li class=""><a href="?p=6&a=21" class="previous round" >21</a></li>
+                            <li><a href="?p=6&a=3">Next</a></li> 
+
+                            <style>
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    
+}
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.next {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.round {
+    border-radius: 50%;
+}
+</style>
                          </ul>
                     </div>
                 </div>
