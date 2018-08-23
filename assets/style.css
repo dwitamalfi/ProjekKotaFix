@@ -26,6 +26,7 @@
 
 body {
   font-family: "Work Sans", sans-serif; 
+  background-color: #E1F1E3;
 
 }
 
@@ -396,7 +397,7 @@ img {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15); }
     .header-area.sticky .navbar {
       /*border-color: #eeeeee;*/
-       border-color: #b3f3b2;
+       border-color: #DEDEDE;
      }
 
 .navbar-toggler-icon {
@@ -595,6 +596,7 @@ img {
       .single-blog-post .post-thumbnail .video-btn:hover i, .single-blog-post .post-thumbnail .video-btn:focus i {
         color: #0000ff; }
   .single-blog-post .post-content {
+
     padding: 20px 30px; }
     .single-blog-post .post-content .headline h5 {
       font-size: 18px;
@@ -876,7 +878,9 @@ img {
     margin-top: 30px; }
 .single-blog-content .post-content {
   padding: 60px 55px;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15); }
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+  background-color:white;
+   }
   @media only screen and (max-width: 767px) {
     .single-blog-content .post-content {
       padding: 30px 25px; } }
@@ -1333,6 +1337,41 @@ textarea:focus ~ .highlight {
         font-size: 14px;
         color: #959595; }
 
+        /*STYLE HALAMAN PENGUMUMAN*/
+.angka {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    
+}
+
+.angka:hover {
+   background-color: #ddd;
+    color: black;
+}
+
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.next {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.round {
+    border-radius: 50%;
+}
+#selengkapnya {
+  background-color: #8AB48F;
+  border-color: #8AB48F;
+}
+#selengkapnya:hover{
+  background-color: #8AB48F;
+  color: black;
+  border-color: #8AB48F;
+}
       
 
 /*# sourceMappingURL=style.css.map */

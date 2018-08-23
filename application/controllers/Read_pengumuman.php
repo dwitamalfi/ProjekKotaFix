@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Pemerintahan extends CI_Controller {
+class Read_pengumuman extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -20,6 +20,6 @@ class Pemerintahan extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('Pemerintahan');
+		$this->load->view('Read_pengumuman');
 	}
 }

@@ -20,6 +20,6 @@ class Pengumuman extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->template->load('Static','Pengumuman');
+		$this->load->view('Pengumuman');
 	}
 }
