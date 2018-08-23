@@ -48,7 +48,7 @@
                             </div>
                              <div class="col-md-4">
                                  <div class="post-thumbnail" id="skpd">
-                                    <a href="kersra.batukota.go.id">
+                                    <a href="http://kesra.batukota.go.id">
                                     <img src="<?php echo base_url();?>assets/img/core-img/KESRA.png" alt=""></a>
                                 </div>
                             </div>
