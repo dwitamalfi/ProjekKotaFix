@@ -20,6 +20,6 @@ class Tautan extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->template->load('Static','Tautan');
+		$this->load->view('Tautan');
 	}
 }

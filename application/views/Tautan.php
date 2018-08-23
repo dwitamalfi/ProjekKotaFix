@@ -14,7 +14,8 @@
                         <!-- Post Content -->
                         <div class="post-content">
                             <a href="https://www.kominfo.go.id/" class="headline">
-                                <h5>KEMENTRIAN KOMUNIKASI DAN INFORMATIKA </h5>
+                                <h5 align="center">KEMENTRIAN KOMUNIKASI DAN INFORMATIKA </h5>
+                                <br>
                             </a>
                         </div>
                     </div>
@@ -31,7 +32,7 @@
                         <!-- Post Content -->
                         <div class="post-content">
                             <a href="https://www.kemendagri.go.id/" class="headline">
-                                <h5>KEMENTRIAN DALAM NEGERI</h5>
+                                <h5 align="center">KEMENTRIAN DALAM NEGERI</h5><br><br>
                             </a>
                         </div>
                     </div>
@@ -48,7 +49,7 @@
                         <!-- Post Content -->
                         <div class="post-content">
                             <a href="https://www.menpan.go.id/site/" class="headline">
-                                <h5>KEMENTRIAN PENDAYAGUNAAN APARATUR NEGARA DAN REFORMASI BIROKRASI</h5>
+                                <h5 align="center">KEMENTRIAN PENDAYAGUNAAN APARATUR NEGARA DAN REFORMASI BIROKRASI</h5>
                             </a>
                         </div>
                     </div>
