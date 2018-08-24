@@ -77,7 +77,16 @@
                         
                         <div class="post-content" >
                            <div class="row justify-content-center">
-                             <div class="col-md-4">
+                            <div class="col-md-4">
+                                <a href="http://disdik.batukota.go.id" target="_blank" class="btn btn-lg btn-block btn-info tombol" role="button"><br><br> Dinas Pendidikan </a>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="http://dispendukcapil.batukota.go.id/ " target="_blank" class="btn btn-lg btn-block btn-info tombol" role="button"><br><br>Dinas Kependudukan <br>dan Catatan Sipil</a>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="http://dpmptsptk.batukota.go.id" class="btn btn-lg btn-block btn-info tombol" role="button"><br>Dinas Penanaman Modal <br>Pelayanan Terpadu Satu Pintu <br>dan Tenaga Kerja</a>
+                            </div>
+                             <!-- <div class="col-md-4">
                                  <div class="post-thumbnail" id="skpd">
                                     <a href="http://disdik.batukota.go.id/disdik/">
                                     <img src="<?php echo base_url();?>assets/img/core-img/DISDIK.png" alt=""></a>
@@ -94,10 +103,16 @@
                                     <a href="http://dpmptsptk.batukota.go.id">
                                     <img src="<?php echo base_url();?>assets/img/core-img/DPMPTSPTK.png" alt=""></a>
                                 </div>
-                            </div>
+                            </div> -->
                         </div><br>
                         <div class="row justify-content-center">
-                             <div class="col-md-4">
+                            <div class="col-md-4">
+                                <a href="http://dinsos.batukota.go.id" class="btn btn-lg btn-block btn-info tombol" role="button"><br><br>Dinas Sosial</a>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombol" role="button"><br><br>Kesejahteraan Masyarakat</a>
+                            </div>
+                             <!-- <div class="col-md-4">
                                  <div class="post-thumbnail" id="skpd">
                                     <a href="http://dinsos.batukota.go.id">
                                     <img src="<?php echo base_url();?>assets/img/core-img/DINSOS.png" alt=""></a>
@@ -108,7 +123,7 @@
                                     <a href="http://kesra.batukota.go.id">
                                     <img src="<?php echo base_url();?>assets/img/core-img/KESRA.png" alt=""></a>
                                 </div>
-                            </div>
+                            </div> -->
                              
                         </div>
 
