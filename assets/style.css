@@ -1385,7 +1385,519 @@ textarea:focus ~ .highlight {
   background-color: #8AB48F;
   color: black;
   border-color: #8AB48F;
+} 
+
+
+
+
+/* STYLE PIMPINAN */
+
+
+@import url("https://fonts.googleapis.com/css?family=Bree+Serif|Raleway:100,200,300,400,500,600,700,800,900|Yellowtail");
+.col-md-offset-right-1 {
+  margin-right: 8.33333333%;
 }
-      
+
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+.row.m0 {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {  
+  line-height: 24px;
+  font-size: 13px;
+  color: #333333;
+  font-family: "Raleway", sans-serif;
+}
+
+body.light_bg {
+  background: url(../img/Pattern_Light.png) repeat scroll center center;
+  background-size: contain;
+}
+
+body.dark_bg {
+  background: url(../img/Pattern_Drak.png) repeat scroll center center;
+  background-size: contain;
+}
+
+body .content_inner_bg {
+  background: #efefef;
+}
+
+body, p, h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.pad {
+  padding: 0px 68px;
+}
+
+#success {
+  display: none;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+#error {
+  display: none;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+/* Main title css
+============================================================================================ */
+.main_title {
+    text-align: center;
+    padding: 60px 0px;
+  }
+  
+  .main_title h2 {
+    font-size: 36px;
+    font-family: "Bree Serif", serif;
+    color: #222222;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid #222222;
+    display: inline-block;
+    line-height: 58px;
+    padding: 0px 23px;
+  }
+  
+  /* End Main title css
+  ============================================================================================ */
+
+  /* About Person area css
+============================================================================================ */
+.about_person_area {
+    background: #fff;
+    margin-top: 60px;
+    padding-top: 70px;
+    padding-bottom: 40px;
+  }
+  
+  .about_person_area .person_img {
+    max-width: 322px;
+  }
+  
+  .about_person_area .person_img img {
+    max-width: 100%;
+  }
+  
+  .about_person_area .person_img .download_btn {
+    margin-top: 40px;
+  }
+  
+  .about_person_area .person_details {
+    margin-left: -30px;
+  }
+  
+  .about_person_area .person_details h3 {
+    font-size: 36px;
+    color: #333333;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+  
+  .about_person_area .person_details h3 span {
+    color: #fec608;
+  }
+  
+  .about_person_area .person_details h4 {
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    color: #666666;
+    padding-bottom: 15px;
+  }
+  
+  .about_person_area .person_details p {
+    font-size: 13px;
+    line-height: 24px;
+    color: #333333;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+  }
+  
+  .about_person_area .person_details .person_information {
+    padding: 15px 0px 25px 0px;
+  }
+  
+  .about_person_area .person_details .person_information ul {
+    display: inline-block;
+  }
+  
+  .about_person_area .person_details .person_information ul li a {
+    font-size: 13px;
+    line-height: 26px;
+    color: #333333;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .about_person_area .person_details .person_information ul + ul {
+    padding-left: 55px;
+  }
+  
+  .about_person_area .person_details .person_information ul + ul li a {
+    font-size: 13px;
+    line-height: 26px;
+    color: #666666;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .social_icon li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .social_icon li a {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border: 1px solid #677fb5;
+    display: block;
+    line-height: 40px;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: all 400ms linear 0s;
+    color: #677fb5;
+  }
+  
+  .social_icon li:nth-child(2) a {
+    color: #70c2e9;
+    border-color: #70c2e9;
+  }
+  
+  .social_icon li:nth-child(2):hover a {
+    background: #70c2e9;
+  }
+  
+  .social_icon li:nth-child(3) a {
+    color: #895a4d;
+    border-color: #895a4d;
+  }
+  
+  .social_icon li:nth-child(3):hover a {
+    background: #895a4d;
+  }
+  
+  .social_icon li:nth-child(4) a {
+    color: #d34836;
+    border-color: #d34836;
+  }
+  
+  .social_icon li:nth-child(4):hover a {
+    background: #d34836;
+  }
+  
+  .social_icon li:nth-child(5) a {
+    color: #007ab9;
+    border-color: #007ab9;
+  }
+  
+  .social_icon li:nth-child(5):hover a {
+    background: #007ab9;
+  }
+  
+  .social_icon li:nth-child(6) a {
+    color: #d8545d;
+    border-color: #d8545d;
+  }
+  
+  .social_icon li:nth-child(6):hover a {
+    background: #d8545d;
+  }
+  
+  .social_icon li:nth-child(7) a {
+    color: #5ecbf3;
+    border-color: #5ecbf3;
+  }
+  
+  .social_icon li:nth-child(7):hover a {
+    background: #5ecbf3;
+  }
+  
+  .social_icon li:nth-child(8) a {
+    color: #ff3ba4;
+    border-color: #ff3ba4;
+  }
+  
+  .social_icon li:nth-child(8):hover a {
+    background: #ff3ba4;
+  }
+  
+  .social_icon li:last-child {
+    margin-right: 0px;
+  }
+  
+  .social_icon li:last-child a {
+    color: #faaa5e;
+    border-color: #faaa5e;
+  }
+  
+  .social_icon li:last-child:hover a {
+    background: #faaa5e;
+  }
+  
+  .social_icon li:hover a {
+    background: #677fb5;
+    color: #fff;
+  }
+  
+  /* End About Person area css
+
+  /* Download BTN area css
+============================================================================================ */
+.download_btn {
+    display: block;
+    background: #fec608;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 20px;
+    color: #222222;
+    font-size: 18px;
+    font-family: "Yellowtail", cursive;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .download_btn span {
+    display: inline-block;
+    width: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    height: 100%;
+    transition: all 400ms linear 0s;
+  }
+  
+  .download_btn:before {
+    content: "\f019";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    color: #222222;
+    top: -100%;
+    left: 0px;
+    font-family: FontAwesome;
+    transition: all 200ms ease-in;
+  }
+  
+  .download_btn:hover span {
+    -webkit-transform: translateY(300%);
+    -ms-transform: translateY(300%);
+    transform: translateY(300%);
+  }
+  
+  .download_btn:hover:before {
+    top: 0px;
+  }
+  
+  .contact_btn {
+    max-width: 140px;
+    display: block;
+    line-height: 40px;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    box-shadow: none !important;
+    outline: none !important;
+    border: none;
+    border-radius: 0px;
+    background: #fec608;
+    width: 100%;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .contact_btn span {
+    display: inline-block;
+    width: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    height: 100%;
+    transition: all 400ms linear 0s;
+  }
+  
+  .contact_btn:before {
+    content: "\f1d8";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    color: #fff;
+    top: -100%;
+    left: 0px;
+    font-family: FontAwesome;
+    transition: all 200ms ease-in;
+  }
+  
+  .contact_btn:focus {
+    background: #fec608;
+  }
+  
+  .contact_btn:hover {
+    background: #fec608;
+  }
+  
+  .contact_btn:hover span {
+    -webkit-transform: translateY(300%);
+    -ms-transform: translateY(300%);
+    transform: translateY(300%);
+  }
+  
+  .contact_btn:hover:before {
+    top: 0px;
+  }
+  
+  /* End Download BTN area css 
+
+  
+/* Education Area css
+============================================================================================ */
+.education_area {
+    padding-bottom: 60px;
+  }
+  
+  .education_area .education_inner_area {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .education_area .education_inner_area:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 5px;
+    margin-left: -2.5px;
+    background: rgba(254, 198, 8, 0.5);
+  }
+  
+  .education_area .education_inner_area .education_item {
+    width: 50%;
+    max-width: 420px;
+    background: #fff;
+    margin-bottom: 30px;
+    padding: 20px;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .education_area .education_inner_area .education_item:before {
+    content: attr(data-line);
+    position: absolute;
+    right: -108px;
+    top: 0px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 4px solid #f7da7b;
+    text-align: center;
+    color: #fff;
+    line-height: 43px;
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #fec608;
+  }
+  
+  .education_area .education_inner_area .education_item:after {
+    content: "";
+    background: #f7da7b;
+    height: 4px;
+    position: absolute;
+    right: -78px;
+    top: 0px;
+    width: 119%;
+  }
+  
+  .education_area .education_inner_area .education_item:nth-child(even) {
+    float: right;
+  }
+  
+  .education_area .education_inner_area .education_item:nth-child(even):before {
+    right: auto;
+    left: -108px;
+  }
+  
+  .education_area .education_inner_area .education_item:nth-child(even):after {
+    left: -78px;
+  }
+  
+  .education_area .education_inner_area .education_item:nth-child(odd) {
+    float: left;
+  }
+  
+  .education_area .education_inner_area .education_item:nth-child(2) {
+    margin-top: 108px;
+  }
+  
+  .education_area .education_inner_area .education_item:last-child {
+    margin-bottom: 0px;
+  }
+  
+  .education_area .education_inner_area .education_item h6 {
+    font-size: 14px;
+    color: #fec608;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+  }
+  
+  .education_area .education_inner_area .education_item h4 {
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    color: #333333;
+    padding: 8px 0px 7px 0px;
+  }
+  
+  .education_area .education_inner_area .education_item h5 {
+    font-size: 14px;
+    color: #333333;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .education_area .education_inner_area .education_item p {
+    font-size: 13px;
+    line-height: 24px;
+    font-family: "Raleway", sans-serif;
+    color: #666666;
+    font-weight: 400;
+    padding-top: 12px;
+  } 
+
+ 
+  
+  /* End Education Area css
+  ============================================================================================ */
+  /* Service Area css 
+
+  /* END PIMPINAN */
+  
 
 /*# sourceMappingURL=style.css.map */
