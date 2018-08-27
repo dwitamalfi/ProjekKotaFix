@@ -31,7 +31,7 @@
 
         } else {
             $('.header-area').removeClass('sticky');
-            document.getElementById("logo").style.height="80px";
+            document.getElementById("logo").style.height="70px";
             document.getElementById('navi').style.height="100px"
         }
     });
