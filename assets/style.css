@@ -418,14 +418,27 @@ img {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
   cursor: pointer; }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) { /*responsive navbar*/
   #worldNav {
-    background-color: #000000;
-    padding: 30px; } }
+    /*background-color: #000000;*/
+    padding: 30px; 
+      -webkit-transform: skew(40deg); -moz-transform: skew(40deg); -o-transform: skew(40deg);
+  }
+   .header-area .navbar .navbar-nav .nav-link{
+    -webkit-transform: skew(0deg); -moz-transform: skew(-40deg); -o-transform: skew(-40deg) ;
+  }
+  }
+
 @media only screen and (max-width: 767px) {
   #worldNav {
-    background-color: #000000;
-    padding: 15px 15px 30px 15px; } }
+    /*background-color: #DEDEDE;*/
+    /*padding: 15px 15px 30px 15px; */
+    -webkit-transform: skew(40deg); -moz-transform: skew(40deg); -o-transform: skew(40deg);
+  }
+ .header-area .navbar .navbar-nav .nav-link{
+    -webkit-transform: skew(0deg); -moz-transform: skew(-40deg); -o-transform: skew(-40deg) ;
+  }
+   }
 
 .dropdown-menu {
   border: none;
@@ -1098,8 +1111,13 @@ textarea:focus ~ .highlight {
       padding-left: 1em; } }
   @media only screen and (max-width: 767px) {
     #search-wrapper {
-      margin-top: 15px;
-      padding-left: 1em; } }
+      margin-top: 10px;
+      padding-left: 1em; 
+      margin-left:-50px; 
+      /*background-color: #000000;*/
+    } 
+  }
+
   #search-wrapper.search-expanded #close-icon:before {
     -webkit-animation: cross-1-in 0.25s linear 0s forwards;
     animation: cross-1-in 0.25s linear 0s forwards; }
@@ -1124,7 +1142,7 @@ textarea:focus ~ .highlight {
     -webkit-animation: lens-in 0.6s linear 0.9s forwards;
     animation: lens-in 0.6s linear 0.9s forwards; }
   #search-wrapper #search {
-    color: #ffffff;
+    color: #000000;
     background: none;
     border: 2px solid;
     border-color: #8d8d8d;

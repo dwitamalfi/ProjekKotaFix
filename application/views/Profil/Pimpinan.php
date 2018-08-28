@@ -5,14 +5,15 @@
 
 
     <!--================Total container Area =================-->
-    <div class="container main_container">
-            <div class="content_inner_bg row m0">
+    <div class="main-content-wrapper section-padding-100-50">
+            <div class="container">
+                <div class="row justify-content-center">
+            <div class="col-12">
                 <section class="about_person_area pad" id="about">
                     <div class="row">
                         <div class="col-md-5">
                             <div class="person_img">
                                 <img src="http://website.batukota.go.id/img/walikota.jpg" alt="">
-                                <a class="download_btn" href="#"><span>Download Biografi</span></a>
                             </div>
                         </div>
                         <div class="col-md-7">
@@ -54,38 +55,31 @@
                     <div class="education_inner_area">
                          <div class="education_item wow fadeInUp animated" data-line="1">  <!--S -->
                             <h6>2002 – 26 Agustus 2007</h6>
-                             <a href="#"><h4>Secondary School</h4></a>
-                            <h5>St. Nicholas High School</h5>
-                            <p>Drs. H.M. Imam Kabul, M.Si. M.Hum. . Wafat saat menjabat</p>
+                          <p>Drs. H.M. Imam Kabul, M.Si. M.Hum. . Wafat saat menjabat</p>
                         </div>
                         <div class="education_item wow fadeInUp animated" data-line="2"> <!--H -->
                             <h6>26 Agustus 2007 – 26 Nopember 2007</h6>
-                            <a href="#"><h4>Secondary School</h4></a>
-                            <h5>St. Nicholas High School</h5>
+                          
                             <p>Muhammad Khudlori. Wafat</p>
                         </div>
                         <div class="education_item wow fadeInUp animated" data-line="3"> <!--C -->
                             <h6>26 Nopember 2007 – 24 Desember 2007</h6>
-                            <a href="#"><h4></h4></a>
-                            <h5></h5>
+                            
                             <p>Plh. Drs. Soerjanto Soebandi, M.M. </p>
                         </div>
                         <div class="education_item wow fadeInUp animated" data-line="4"> <!--M -->
                             <h6>24 Desember 2007 – 10 Oktober 2012</h6>
-                            <a href="#"><h4>Secondary School</h4></a>
-                            <h5>St. Nicholas High School</h5>
+                            
                             <p>Eddy Rumpoko Periode I</p>
                         </div>
                         <div class="education_item wow fadeInUp animated" data-line="5"> <!--W -->
                             <h6>26 Desember 2012 – 10 Oktober 2017</h6>
-                            <a href="#"><h4>Secondary School</h4></a>
-                            <h5>St. Nicholas High School</h5>
+                           
                             <p>Eddy Rumpoko Periode II</p>
                         </div> 
                         <div class="education_item wow fadeInUp animated" data-line="6"> <!--X -->
                             <h6>2017-2018</h6>
-                            <a href="#"><h4>Secondary School</h4></a>
-                            <h5>St. Nicholas High School</h5>
+                           
                             <p>Dra. Dewanti Rumpoko, M.Si</p>
                         </div> 
 
@@ -96,6 +90,8 @@
               
                
             </div>
+        </div>
+        </div>
         </div>
    
 
