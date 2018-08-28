@@ -20,6 +20,6 @@ class Kalender extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->template->load('Static','Kalender');
+		$this->load->view('Kalender');
 	}
 }
