@@ -46,19 +46,6 @@
 			<br>
 		</div>
 	</div>
-
-	<!--
-	<div class="row">
-		<div class="col-md-12"> 
-			 <form id="form1" name="form1" method="post" align="right"action="#" > 
-		   		 <div class="pencarian" style="margin-top:0%; margin-bottom:-10%; height:50px; text-align:right;">
-		      	 <label><input type="submit"  name="button" class="button" value="" style="display:none;"/></label>
-				       	<input type="text" name="key" id="textfield" class="form-control" placeholder="  Pencarian" autocomplete="off" style="outline:none;"/></label>
-				 </div>         
-			</form>
-		<div>
-	<div>
-	-->
 <div class="container">
 	<div class="row">
 		<div class="col-md-12"> 
