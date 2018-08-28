@@ -77,8 +77,8 @@
                         <article class="post-content">
                             <div class="row">
                                 <div class="col-md-5"> 
-                                    <a class="img-thumbnail lightbox" href="img/acara/20180320153245-1-0-Khitanan_Masal.jpg" data-plugin-options='{"type":"image"}'>
-                                        <img class="img-responsive" src="img/acara/20180320153245-1-0-Khitanan_Masal.jpg">
+                                    <a class="img-thumbnail lightbox" href="#" data-plugin-options='{"type":"image"}'>
+                                        <img class="img-responsive" src="http://placehold.it/500x600"">
                                     </a>
                                 </div>         
                                 <div class="col-md-7">
@@ -102,8 +102,8 @@
                         <article class="post-content">
                             <div class="row">
                                 <div class="col-md-5"> 
-                                    <a class="img-thumbnail lightbox" href="img/acara/20180320152803-1-0-Batang_Art_Festival.jpg" data-plugin-options='{"type":"image"}'>
-                                        <img class="img-responsive" src="img/acara/20180320152803-1-0-Batang_Art_Festival.jpg">
+                                     <a class="img-thumbnail lightbox" href="#" data-plugin-options='{"type":"image"}'>
+                                        <img class="img-responsive" src="http://placehold.it/500x600"">
                                     </a>
                                 </div>         
                                 <div class="col-md-7">
@@ -127,8 +127,8 @@
                         <article class="post-content">
                             <div class="row">
                                 <div class="col-md-5"> 
-                                    <a class="img-thumbnail lightbox" href="img/acara/20180320151021-1-0-Festival_Senam_Langkah_Land_Dance.jpg" data-plugin-options='{"type":"image"}'>
-                                        <img class="img-responsive" src="img/acara/20180320151021-1-0-Festival_Senam_Langkah_Land_Dance.jpg">
+                                     <a class="img-thumbnail lightbox" href="#" data-plugin-options='{"type":"image"}'>
+                                        <img class="img-responsive" src="http://placehold.it/500x600"">
                                     </a>
                                 </div>         
                                 <div class="col-md-7">
@@ -152,8 +152,8 @@
                         <article class="post-content">
                             <div class="row">
                                 <div class="col-md-5"> 
-                                    <a class="img-thumbnail lightbox" href="img/acara/20180320150709-1-0-Batang_Bershalawat.jpg" data-plugin-options='{"type":"image"}'>
-                                        <img class="img-responsive" src="img/acara/20180320150709-1-0-Batang_Bershalawat.jpg">
+                                    <a class="img-thumbnail lightbox" href="#" data-plugin-options='{"type":"image"}'>
+                                        <img class="img-responsive" src="http://placehold.it/500x600"">
                                     </a>
                                 </div>         
                                 <div class="col-md-7">
@@ -177,8 +177,8 @@
                         <article class="post-content">
                             <div class="row">
                                 <div class="col-md-5"> 
-                                    <a class="img-thumbnail lightbox" href="img/acara/20180320150840-1-0-Istbat_dan_Nikah_Masal.jpg" data-plugin-options='{"type":"image"}'>
-                                        <img class="img-responsive" src="img/acara/20180320150840-1-0-Istbat_dan_Nikah_Masal.jpg">
+                                     <a class="img-thumbnail lightbox" href="#" data-plugin-options='{"type":"image"}'>
+                                        <img class="img-responsive" src="http://placehold.it/500x600"">
                                     </a>
                                 </div>         
                                 <div class="col-md-7">
@@ -216,10 +216,6 @@
             </div>
 <hr> </hr>
           
-            <!-- ============== Related Post ============== -->
-           
-
-            
         </div>
     </div>
 
@@ -292,13 +288,10 @@
     <script src="<?php echo base_url();?>assets/js/plugins.js"></script>
     <!-- Active js -->
     <script src="<?php echo base_url();?>assets/js/active.js"></script>
-
-
-
 </html>
- 
     <!-- ***** Footer Area End ***** -->
 
+ 
     <!-- jQuery (Necessary for All JavaScript Plugins) -->
     
 </body>
