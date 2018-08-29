@@ -51,13 +51,13 @@ form {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	opacity: .6;
+	opacity: .7;
 	z-index: -5;
 }
 body {
 	/*font-family: Accius-T-OT-Light-Condensed;*/
 	font-family: "Montserrat", sans-serif;
-    background-image:url("../img/1b.jpg");
+    background-image:url("../img/22.jpg");
     
     background-repeat: no-repeat;
     background-size: 100% 100%;
