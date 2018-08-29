@@ -107,7 +107,8 @@
             </div>
           </div>
         </div>
-        <style>
+      </div>
+      <style>
           body {
   padding-top: 15px;
 }
@@ -126,8 +127,6 @@
   margin-bottom: 30px;
 }
         </style>
-
-      </div>
       <!-- /.row -->
 
       <!-- Pagination -->
