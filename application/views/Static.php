@@ -40,28 +40,6 @@
                                  <li class="nav-item <?php if($this->uri->segment('1')=="Sejarah") {echo "active";}   ?>">
                                     <a class="nav-link" href="<?php echo base_url();?>index.php/Sejarah">Sejarah</a>
                                 </li>
-                                <!-- <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="<?php echo base_url();?>index.php/Sejarah">Sejarah</a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="<?php echo base_url();?>index.php/Lambang">Lambang</a>
-                                        <a class="dropdown-item" href="catagory.html">Pimpinan Daerah</a>
-                                        <a class="dropdown-item" href="<?php echo base_url();?>index.php/Sejarah">Peta</a>
-                                    </div>
-                                </li> -->
-                                <!-- <li class="nav-item dropdown">  
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Berita</a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="catagory.html">Umum</a>
-                                        <a class="dropdown-item" href="single-blog.html">Pariwisata</a>
-                                        <a class="dropdown-item" href="regular-page.html">Kegiatan</a>
-                                        <a class="dropdown-item" href="contact.html">Pemerintahan</a>
-                                        <a class="dropdown-item" href="contact.html">Pendidikan</a>
-                                        <a class="dropdown-item" href="contact.html">Pembangunan</a>
-                                        <a class="dropdown-item" href="contact.html">Kebudayaan</a>
-                                        <a class="dropdown-item" href="contact.html">Pertanian</a>
-                                        <a class="dropdown-item" href="contact.html">Olahraga</a>
-                                    </div>
-                                </li> -->
                                 <li class="nav-item <?php if($this->uri->segment('1')=="Lambang") {echo "active";}   ?>">
                                     <a class="nav-link" href="<?php echo base_url();?>index.php/Lambang">Lambang</a>
                                 </li>

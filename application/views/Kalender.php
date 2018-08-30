@@ -16,8 +16,6 @@
 
     <!-- Style CSS -->
     <link rel="stylesheet" href="<?php echo base_url();?>assets/style.css">
-   
-   
 
 </head>
 
@@ -40,7 +38,7 @@
                                     <a class="nav-link" href="<?php echo base_url();?>">Beranda <span class="sr-only">(current)</span></a>
                                 </li>
                                  <li class="nav-item <?php if($this->uri->segment('1')=="Kalender") {echo "active";}   ?>">
-                                    <a class="nav-link" href="<?php echo base_url();?>index.php/Sejarah">Kalender Event</a>
+                                    <a class="nav-link" href="<?php echo base_url();?>index.php/Kalender">Kalender</a>
                                 </li>                                 
                             </ul>
                             <!-- Search Form  -->
@@ -59,339 +57,28 @@
     </header>
 <body>
     <!-- ***** Header Area Start ***** -->
-    
 
-
-
-
-
-
-
-
-
-        
   
     <!-- ***** Header Area End ***** -->
 
     <!-- ********** Hero Area Start ********** -->
    
-    <!-- ********** Hero Area End ********** --> 
-  
-
-
+    <!-- ********** Hero Area End ********** -->
 
     <div class="main-content-wrapper section-padding-100">
         <div class="container">
             <div class="row justify-content-center">
-                <!-- ============= Post Content Area ============= -->  
-                     <div class="col-md-10">
-                        
-
-
-         </div>
-        </div>
-
-
-
-
-
+                <!-- ============= Post Content Area ============= -->
               
                 <!-- ========== Sidebar Area ========== -->
                    <div class="col-md-10">
                     <div class="single-blog-content mb-100">
-                        <h2>Kalender Event</h2>
-
-                          <article class="post-content">
-                            <div class="row">
-                                <div class="container theme-showcase">
-                                 <div id="holder" class="row"></div>
-                                 <script type="text/tmpl" id="tmpl">
-  {{ 
-  var date = date || new Date(),
-      month = date.getMonth(), 
-      year = date.getFullYear(), 
-      first = new Date(year, month, 1), 
-      last = new Date(year, month + 1, 0),
-      startingDay = first.getDay(), 
-      thedate = new Date(year, month, 1 - startingDay),
-      dayclass = lastmonthcss,
-      today = new Date(),
-      i, j; 
-  if (mode === 'week') {
-    thedate = new Date(date);
-    thedate.setDate(date.getDate() - date.getDay());
-    first = new Date(thedate);
-    last = new Date(thedate);
-    last.setDate(last.getDate()+6);
-  } else if (mode === 'day') {
-    thedate = new Date(date);
-    first = new Date(thedate);
-    last = new Date(thedate);
-    last.setDate(thedate.getDate() + 1);
-  }
-  
-  }}
-  <table class="calendar-table table table-condensed table-tight">
-    <thead>
-      <tr>
-        <td colspan="7" style="text-align: center">
-          <table style="white-space: nowrap; width: 100%">
-            <tr>
-              <td style="text-align: left;">
-                <span class="btn-group">
-                  <button class="js-cal-prev btn btn-default">&lt;</button>
-                  <button class="js-cal-next btn btn-default">&gt;</button>
-                </span>
-                <button class="js-cal-option btn btn-default {{: first.toDateInt() <= today.toDateInt() && today.toDateInt() <= last.toDateInt() ? 'active':'' }}" data-date="{{: today.toISOString()}}" data-mode="month">{{: todayname }}</button>
-              </td>
-              <td>
-                <span class="btn-group btn-group-lg">
-                  {{ if (mode !== 'day') { }}
-                    {{ if (mode === 'month') { }}<button class="js-cal-option btn btn-link" data-mode="year">{{: months[month] }}</button>{{ } }}
-                    {{ if (mode ==='week') { }}
-                      <button class="btn btn-link disabled">{{: shortMonths[first.getMonth()] }} {{: first.getDate() }} - {{: shortMonths[last.getMonth()] }} {{: last.getDate() }}</button>
-                    {{ } }}
-                    <button class="js-cal-years btn btn-link">{{: year}}</button> 
-                  {{ } else { }}
-                    <button class="btn btn-link disabled">{{: date.toDateString() }}</button> 
-                  {{ } }}
-                </span>
-              </td>
-              <td style="text-align: right">
-                <span class="btn-group">
-                  <button class="js-cal-option btn btn-default {{: mode==='year'? 'active':'' }}" data-mode="year">Year</button>
-                  <button class="js-cal-option btn btn-default {{: mode==='month'? 'active':'' }}" data-mode="month">Month</button>
-                  <button class="js-cal-option btn btn-default {{: mode==='week'? 'active':'' }}" data-mode="week">Week</button>
-                  <button class="js-cal-option btn btn-default {{: mode==='day'? 'active':'' }}" data-mode="day">Day</button>
-                </span>
-              </td>
-            </tr>
-          </table>
-          
-        </td>
-      </tr>
-    </thead>
-    {{ if (mode ==='year') {
-      month = 0;
-    }}
-    <tbody>
-      {{ for (j = 0; j < 3; j++) { }}
-      <tr>
-        {{ for (i = 0; i < 4; i++) { }}
-        <td class="calendar-month month-{{:month}} js-cal-option" data-date="{{: new Date(year, month, 1).toISOString() }}" data-mode="month">
-          {{: months[month] }}
-          {{ month++;}}
-        </td>
-        {{ } }}
-      </tr>
-      {{ } }}
-    </tbody>
-    {{ } }}
-    {{ if (mode ==='month' || mode ==='week') { }}
-    <thead>
-      <tr class="c-weeks">
-        {{ for (i = 0; i < 7; i++) { }}
-          <th class="c-name">
-            {{: days[i] }}
-          </th>
-        {{ } }}
-      </tr>
-    </thead>
-    <tbody>
-      {{ for (j = 0; j < 6 && (j < 1 || mode === 'month'); j++) { }}
-      <tr>
-        {{ for (i = 0; i < 7; i++) { }}
-        {{ if (thedate > last) { dayclass = nextmonthcss; } else if (thedate >= first) { dayclass = thismonthcss; } }}
-        <td class="calendar-day {{: dayclass }} {{: thedate.toDateCssClass() }} {{: date.toDateCssClass() === thedate.toDateCssClass() ? 'selected':'' }} {{: daycss[i] }} js-cal-option" data-date="{{: thedate.toISOString() }}">
-          <div class="date">{{: thedate.getDate() }}</div>
-          {{ thedate.setDate(thedate.getDate() + 1);}}
-        </td>
-        {{ } }}
-      </tr>
-      {{ } }}
-    </tbody>
-    {{ } }}
-    {{ if (mode ==='day') { }}
-    <tbody>
-      <tr>
-        <td colspan="7">
-          <table class="table table-striped table-condensed table-tight-vert" >
-            <thead>
-              <tr>
-                <th>&nbsp;</th>
-                <th style="text-align: center; width: 100%">{{: days[date.getDay()] }}</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th class="timetitle" >All Day</th>
-                <td class="{{: date.toDateCssClass() }}">  </td>
-              </tr>
-              <tr>
-                <th class="timetitle" >Before 6 AM</th>
-                <td class="time-0-0"> </td>
-              </tr>
-              {{for (i = 6; i < 22; i++) { }}
-              <tr>
-                <th class="timetitle" >{{: i <= 12 ? i : i - 12 }} {{: i < 12 ? "AM" : "PM"}}</th>
-                <td class="time-{{: i}}-0"> </td>
-              </tr>
-              <tr>
-                <th class="timetitle" >{{: i <= 12 ? i : i - 12 }}:30 {{: i < 12 ? "AM" : "PM"}}</th>
-                <td class="time-{{: i}}-30"> </td>
-              </tr>
-              {{ } }}
-              <tr>
-                <th class="timetitle" >After 10 PM</th>
-                <td class="time-22-0"> </td>
-              </tr>
-            </tbody>
-          </table>
-        </td>
-      </tr>
-    </tbody>
-    {{ } }}
-  </table>
-</script>
-
-<script type="text/tmpl" id="tmpl">
-  {{ var date = date || new Date(), month = date.getMonth(), year = date.getFullYear(), first = new Date(year, month, 1), last = new Date(year, month + 1, 0), startingDay = first.getDay(), thedate = new Date(year, month, 1 - startingDay), dayclass = lastmonthcss,
-  today = new Date(), i, j; if (mode === 'week') { thedate = new Date(date); thedate.setDate(date.getDate() - date.getDay()); first = new Date(thedate); last = new Date(thedate); last.setDate(last.getDate()+6); } else if (mode === 'day') { thedate = new
-  Date(date); first = new Date(thedate); last = new Date(thedate); last.setDate(thedate.getDate() + 1); } }}
-  <table class="calendar-table table table-condensed table-tight">
-    <thead>
-      <tr>
-        <td colspan="7" style="text-align: center">
-          <table style="white-space: nowrap; width: 100%">
-            <tr>
-              <td style="text-align: left;">
-                <span class="btn-group">
-                  <button class="js-cal-prev btn btn-default">&lt;</button>
-                  <button class="js-cal-next btn btn-default">&gt;</button>
-                </span>
-                <button class="js-cal-option btn btn-default {{: first.toDateInt() <= today.toDateInt() && today.toDateInt() <= last.toDateInt() ? 'active':'' }}" data-date="{{: today.toISOString()}}" data-mode="month">{{: todayname }}</button>
-              </td>
-              <td>
-                <span class="btn-group btn-group-lg">
-                  {{ if (mode !== 'day') { }}
-                    {{ if (mode === 'month') { }}<button class="js-cal-option btn btn-link" data-mode="year">{{: months[month] }}</button>{{ } }}
-                    {{ if (mode ==='week') { }}
-                      <button class="btn btn-link disabled">{{: shortMonths[first.getMonth()] }} {{: first.getDate() }} - {{: shortMonths[last.getMonth()] }} {{: last.getDate() }}</button>
-                    {{ } }}
-                    <button class="js-cal-years btn btn-link">{{: year}}</button> 
-                  {{ } else { }}
-                    <button class="btn btn-link disabled">{{: date.toDateString() }}</button> 
-                  {{ } }}
-                </span>
-              </td>
-              <td style="text-align: right">
-                <span class="btn-group">
-                  <button class="js-cal-option btn btn-default {{: mode==='year'? 'active':'' }}" data-mode="year">Year</button>
-                  <button class="js-cal-option btn btn-default {{: mode==='month'? 'active':'' }}" data-mode="month">Month</button>
-                  <button class="js-cal-option btn btn-default {{: mode==='week'? 'active':'' }}" data-mode="week">Week</button>
-                  <button class="js-cal-option btn btn-default {{: mode==='day'? 'active':'' }}" data-mode="day">Day</button>
-                </span>
-              </td>
-            </tr>
-          </table>
-
-        </td>
-      </tr>
-    </thead>
-    {{ if (mode ==='year') { month = 0; }}
-    <tbody>
-      {{ for (j = 0; j
-      < 3; j++) { }} <tr>
-        {{ for (i = 0; i
-        < 4; i++) { }} <td class="calendar-month month-{{:month}} js-cal-option" data-date="{{: new Date(year, month, 1).toISOString() }}" data-mode="month">
-          {{: months[month] }} {{ month++;}}
-          </td>
-          {{ } }}
-          </tr>
-          {{ } }}
-    </tbody>
-    {{ } }} {{ if (mode ==='month' || mode ==='week') { }}
-    <thead>
-      <tr class="c-weeks">
-        {{ for (i = 0; i
-        < 7; i++) { }} <th class="c-name">
-          {{: days[i] }}
-          </th>
-          {{ } }}
-      </tr>
-    </thead>
-    <tbody>
-      {{ for (j = 0; j
-      < 6 && (j < 1 || mode==='month' ); j++) { }} <tr>
-        {{ for (i = 0; i
-        < 7; i++) { }} {{ if (thedate> last) { dayclass = nextmonthcss; } else if (thedate >= first) { dayclass = thismonthcss; } }}
-          <td class="calendar-day {{: dayclass }} {{: thedate.toDateCssClass() }} {{: date.toDateCssClass() === thedate.toDateCssClass() ? 'selected':'' }} {{: daycss[i] }} js-cal-option" data-date="{{: thedate.toISOString() }}">
-            <div class="date">{{: thedate.getDate() }}</div>
-            {{ thedate.setDate(thedate.getDate() + 1);}}
-          </td>
-          {{ } }}
-          </tr>
-          {{ } }}
-    </tbody>
-    {{ } }} {{ if (mode ==='day') { }}
-    <tbody>
-      <tr>
-        <td colspan="7">
-          <table class="table table-striped table-condensed table-tight-vert">
-            <thead>
-              <tr>
-                <th>&nbsp;</th>
-                <th style="text-align: center; width: 100%">{{: days[date.getDay()] }}</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th class="timetitle">All Day</th>
-                <td class="{{: date.toDateCssClass() }}"> </td>
-              </tr>
-              <tr>
-                <th class="timetitle">Before 6 AM</th>
-                <td class="time-0-0"> </td>
-              </tr>
-              {{for (i = 6; i
-              < 22; i++) { }} <tr>
-                <th class="timetitle">{{: i
-                  <=1 2 ? i : i - 12 }} {{: i < 12 ? "AM" : "PM"}}</th>
-                    <td class="time-{{: i}}-0"> </td>
-      </tr>
-      <tr>
-        <th class="timetitle">{{: i
-          <=1 2 ? i : i - 12 }}:30 {{: i < 12 ? "AM" : "PM"}}</th>
-            <td class="time-{{: i}}-30"> </td>
-      </tr>
-      {{ } }}
-      <tr>
-        <th class="timetitle">After 10 PM</th>
-        <td class="time-22-0"> </td>
-      </tr>
-      </tbody>
-      </table>
-      </td>
-      </tr>
-    </tbody>
-    {{ } }}
-  </table>
-</script>
-<script src='http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
-<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js'></script>
-<script  src="<?php echo base_url();?>assets/js/calender.js"></script>
-<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
-<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css'>
-                               </div>
-                            </div>
-                        </article>
-
-
+                        <h2>Kalender</h2>
                         <article class="post-content">
                             <div class="row">
                                 <div class="col-md-5"> 
-                                    <a class="img-thumbnail lightbox" href="img/acara/20180320153245-1-0-Khitanan_Masal.jpg" data-plugin-options='{"type":"image"}'>
-                                        <img class="img-responsive" src="img/acara/20180320153245-1-0-Khitanan_Masal.jpg">
+                                    <a class="img-thumbnail lightbox" href="#" data-plugin-options='{"type":"image"}'>
+                                        <img class="img-responsive" src="http://placehold.it/500x600">
                                     </a>
                                 </div>         
                                 <div class="col-md-7">
@@ -412,12 +99,11 @@
                                 </div>
                             </div>
                         </article>
-
                         <article class="post-content">
                             <div class="row">
                                 <div class="col-md-5"> 
-                                    <a class="img-thumbnail lightbox" href="img/acara/20180320152803-1-0-Batang_Art_Festival.jpg" data-plugin-options='{"type":"image"}'>
-                                        <img class="img-responsive" src="img/acara/20180320152803-1-0-Batang_Art_Festival.jpg">
+                                     <a class="img-thumbnail lightbox" href="#" data-plugin-options='{"type":"image"}'>
+                                        <img class="img-responsive" src="http://placehold.it/500x600">
                                     </a>
                                 </div>         
                                 <div class="col-md-7">
@@ -441,8 +127,8 @@
                         <article class="post-content">
                             <div class="row">
                                 <div class="col-md-5"> 
-                                    <a class="img-thumbnail lightbox" href="img/acara/20180320151021-1-0-Festival_Senam_Langkah_Land_Dance.jpg" data-plugin-options='{"type":"image"}'>
-                                        <img class="img-responsive" src="img/acara/20180320151021-1-0-Festival_Senam_Langkah_Land_Dance.jpg">
+                                     <a class="img-thumbnail lightbox" href="#" data-plugin-options='{"type":"image"}'>
+                                        <img class="img-responsive" src="http://placehold.it/500x600">
                                     </a>
                                 </div>         
                                 <div class="col-md-7">
@@ -456,7 +142,7 @@
                                     </div>
                                     <div >
                                         <p style="text-align:justify">
-                                        -                                                <hr class="invisible short" />
+                                      <hr class="invisible short" />
                                         <a href="<?php echo base_url()?>index.php/Read_pengumuman" class="btn btn-xs btn-primary pull-right" id="selengkapnya">Selengkapnya...</a>
                                         </p>
                                     </div>
@@ -466,8 +152,8 @@
                         <article class="post-content">
                             <div class="row">
                                 <div class="col-md-5"> 
-                                    <a class="img-thumbnail lightbox" href="img/acara/20180320150709-1-0-Batang_Bershalawat.jpg" data-plugin-options='{"type":"image"}'>
-                                        <img class="img-responsive" src="img/acara/20180320150709-1-0-Batang_Bershalawat.jpg">
+                                    <a class="img-thumbnail lightbox" href="#" data-plugin-options='{"type":"image"}'>
+                                        <img class="img-responsive" src="http://placehold.it/500x600">
                                     </a>
                                 </div>         
                                 <div class="col-md-7">
@@ -481,7 +167,7 @@
                                     </div>
                                     <div >
                                         <p style="text-align:justify">
-                                        -                                                <hr class="invisible short" />
+                                                                                      <hr class="invisible short">
                                         <a href="<?php echo base_url()?>index.php/Read_pengumuman" class="btn btn-xs btn-primary pull-right" id="selengkapnya">Selengkapnya...</a>
                                         </p>
                                     </div>
@@ -491,8 +177,8 @@
                         <article class="post-content">
                             <div class="row">
                                 <div class="col-md-5"> 
-                                    <a class="img-thumbnail lightbox" href="img/acara/20180320150840-1-0-Istbat_dan_Nikah_Masal.jpg" data-plugin-options='{"type":"image"}'>
-                                        <img class="img-responsive" src="img/acara/20180320150840-1-0-Istbat_dan_Nikah_Masal.jpg">
+                                     <a class="img-thumbnail lightbox" href="#" data-plugin-options='{"type":"image"}'>
+                                        <img class="img-responsive" src="http://placehold.it/500x600">
                                     </a>
                                 </div>         
                                 <div class="col-md-7">
@@ -513,7 +199,7 @@
                                     
                                 </div>
                             </div>
-                            <hr /hr>
+                            <br /br>
                         </article>
                         <ul class="pagination pagination-lg pull-right ">
                                 <li><a href="?p=6&a=1">Previous</a> </li>
@@ -530,16 +216,11 @@
             </div>
 <hr> </hr>
           
-            <!-- ============== Related Post ============== -->
-           
-
-            
         </div>
     </div>
 
     <!-- ***** Footer Area Start ***** -->
-
-     <footer class="footer-area">
+    <footer class="footer-area">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -597,7 +278,6 @@
             </div>
         </div>
     </footer>
- 
     <!-- jQuery (Necessary for All JavaScript Plugins) -->
     <script src="<?php echo base_url();?>assets/js/jquery/jquery-2.2.4.min.js"></script>
     <!-- Popper js -->
@@ -608,13 +288,10 @@
     <script src="<?php echo base_url();?>assets/js/plugins.js"></script>
     <!-- Active js -->
     <script src="<?php echo base_url();?>assets/js/active.js"></script>
-
-
-
 </html>
- 
     <!-- ***** Footer Area End ***** -->
 
+ 
     <!-- jQuery (Necessary for All JavaScript Plugins) -->
     
 </body>

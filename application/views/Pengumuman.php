@@ -78,7 +78,7 @@
                             <div class="row">
                                 <div class="col-md-5"> 
                                     <a class="img-thumbnail lightbox" href="#" data-plugin-options='{"type":"image"}'>
-                                        <img class="img-responsive" src="http://placehold.it/500x600"">
+                                        <img class="img-responsive" src="http://placehold.it/500x600">
                                     </a>
                                 </div>         
                                 <div class="col-md-7">
@@ -103,7 +103,7 @@
                             <div class="row">
                                 <div class="col-md-5"> 
                                      <a class="img-thumbnail lightbox" href="#" data-plugin-options='{"type":"image"}'>
-                                        <img class="img-responsive" src="http://placehold.it/500x600"">
+                                        <img class="img-responsive" src="http://placehold.it/500x600">
                                     </a>
                                 </div>         
                                 <div class="col-md-7">
@@ -128,7 +128,7 @@
                             <div class="row">
                                 <div class="col-md-5"> 
                                      <a class="img-thumbnail lightbox" href="#" data-plugin-options='{"type":"image"}'>
-                                        <img class="img-responsive" src="http://placehold.it/500x600"">
+                                        <img class="img-responsive" src="http://placehold.it/500x600">
                                     </a>
                                 </div>         
                                 <div class="col-md-7">
@@ -142,7 +142,7 @@
                                     </div>
                                     <div >
                                         <p style="text-align:justify">
-                                        -                                                <hr class="invisible short" />
+                                      <hr class="invisible short" />
                                         <a href="<?php echo base_url()?>index.php/Read_pengumuman" class="btn btn-xs btn-primary pull-right" id="selengkapnya">Selengkapnya...</a>
                                         </p>
                                     </div>
@@ -153,7 +153,7 @@
                             <div class="row">
                                 <div class="col-md-5"> 
                                     <a class="img-thumbnail lightbox" href="#" data-plugin-options='{"type":"image"}'>
-                                        <img class="img-responsive" src="http://placehold.it/500x600"">
+                                        <img class="img-responsive" src="http://placehold.it/500x600">
                                     </a>
                                 </div>         
                                 <div class="col-md-7">
@@ -167,7 +167,7 @@
                                     </div>
                                     <div >
                                         <p style="text-align:justify">
-                                        -                                                <hr class="invisible short" />
+                                                                                      <hr class="invisible short">
                                         <a href="<?php echo base_url()?>index.php/Read_pengumuman" class="btn btn-xs btn-primary pull-right" id="selengkapnya">Selengkapnya...</a>
                                         </p>
                                     </div>
@@ -178,7 +178,7 @@
                             <div class="row">
                                 <div class="col-md-5"> 
                                      <a class="img-thumbnail lightbox" href="#" data-plugin-options='{"type":"image"}'>
-                                        <img class="img-responsive" src="http://placehold.it/500x600"">
+                                        <img class="img-responsive" src="http://placehold.it/500x600">
                                     </a>
                                 </div>         
                                 <div class="col-md-7">
