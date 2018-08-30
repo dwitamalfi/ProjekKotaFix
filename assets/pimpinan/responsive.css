@@ -195,8 +195,14 @@
         top: -25px;
         left: 50%;
         transform: translateX(-50%);
+    } 
+
+    #profil{
+        font-size: 20px;
+        align: center;
     }
-    .footer_inner .social_icon li{
+     
+   .footer_inner .social_icon li{
         margin-bottom: 6px;
     }
     .footer_copyright .pull-left h5 {

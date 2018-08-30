@@ -20,16 +20,14 @@
                         </div>
                         <div class="col-md-7">
                             <div class="row person_details" align="">
-                                <h3>PROFIL WALIKOTA BATU</h3>
+
+                                <h3 id="profil">PROFIL WALIKOTA BATU</h3>
                                  <div class="person_information">
-                                    <ul>
-                                        <li><a href="#">TTL: Lahir  13 Desember 1962</a></li>
-                                        <li><a href="#">Kebangsaan Indonesia</a></li>
-                                        <li><a href="#">Alamat: 2 Jl. Panglima Sudirman No.98 Kota Batu, Jawa Timur</a></li>
-                                        <li><a href="#">Phone: 0341</a></li>
-                                        <li><a href="#">Pendidikan Terakhir: S2 Psikologi Pendidikan</a></li>
-                                        <li><a href="#">Email</a></li>
-                                        <li><a href="#">Twitter</a></li>
+                                    <ul><b> 
+                                        <li><a><b>Nama &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp :</b> Dra. Hj. Dewanti Rumpoko, M.Si     </a></li>
+                                        <li><a><b>Tempat Tanggal Lahir &nbsp &nbsp &nbsp  &nbsp :</b>  13 Desember 1962</a></li>
+                                        <li><a><b>Alamat &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  :</b>  Jl. Panglima Sudirman No.98 Kota Batu, Jawa Timur</a></li>
+                                       
                                     </ul>
                                 </div>
                             </div>
@@ -38,17 +36,14 @@
                       <hr width="80%" align="center"> 
                      <div class="row">
                     <div class="col-md-7">
-                            <div class="row person_details">
-                                <h3>PROFIL WAKIL WALIKOTA BATU</h3>
+                            <div class="row person_details"  style="margin-top: 100px">
+                                <h3 id="profil">PROFIL WAKIL WALIKOTA BATU</h3>
                                  <div class="person_information">
                                     <ul>
-                                        <li><a href="#">Lahir  13 Desember 1962</a></li>
-                                        <li><a href="#">Kebangsaan Indonesia</a></li>
-                                        <li><a href="#">Alamat 2 Jl. Panglima Sudirman No.98 Kota Batu, Jawa Timur</a></li>
-                                        <li><a href="#">Phone 0341</a></li>
-                                        <li><a href="#">Pendidikan Terakhir S2 Psikologi Pendidikan</a></li>
-                                        <li><a href="#">Email</a></li>
-                                        <li><a href="#">Twitter</a></li>
+                                       <li><a><b>Nama &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp :</b> Dra. Hj. Dewanti Rumpoko, M.Si     </a></li>
+                                        <li><a><b>Tempat Tanggal Lahir &nbsp &nbsp &nbsp  &nbsp :</b> 13 Desember 1962</a></li>
+                                        <li><a><b>Alamat &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  :</b> Jl. Panglima Sudirman No.98 Kota Batu, Jawa Timur</a></li>
+                                       
                                     </ul>
                                 </div>
                             </div>
@@ -204,3 +199,4 @@
     
 </body>
 
+ 
