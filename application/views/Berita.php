@@ -48,7 +48,7 @@
         </div>
     </header>
 <body>
- <div class="main-content-wrapper section-padding-50">
+ <div class="main-content-wrapper section-padding-100-70">
         <div class="container">
             <div class="row justify-content-center">
                 <!-- ============= Post Content Area ============= -->
