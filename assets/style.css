@@ -8,6 +8,11 @@
 @import url(css/font-awesome.min.css);
 @import url(css/themify-icons.css);
 /* :: Base CSS */
+
+.tombol{
+  height: 200px;
+  width: 350px;
+}
 * {
   margin: 0;
   padding: 0; }
