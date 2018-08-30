@@ -55,7 +55,7 @@
                         </div>
                         <div class="col-md-5">
                             <div class="person_img">
-                            &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp    <img src="http://website.batukota.go.id/img/wawali.jpg" alt="">
+                            &nbsp &nbsp &nbsp &nbsp &nbsp     <img src="http://website.batukota.go.id/img/wawali.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -190,12 +190,7 @@
 
                     </div>
                 </section>
-                
-                
-               
               
-              
-               
             </div>
 
         </div>
