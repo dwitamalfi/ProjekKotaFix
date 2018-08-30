@@ -58,10 +58,10 @@
             <!-- ============== Related Post ============== -->
     <div class="row">
         <div class="col-md-4">
-            <a href="http://batt.batukota.go.id" target="_blank" class="btn btn-lg btn-block btn-info tombol" role="button"><br><br> BATT <br>(Batu Among Tani Teknologi)</a>
+            <a href="http://batt.batukota.go.id" target="_blank" class="btn btn-lg btn-block btn-info tombol" role="button"><br><br> BATT <br>(Batu Among Tani Teknologi)</a><br>
         </div>
         <div class="col-md-4">
-            <a href="http://batu-city-living.au-syd.mybluemix.net/ " target="_blank" class="btn btn-lg btn-block btn-info tombol" role="button"><br><br>Among Tani</a>
+            <a href="http://batu-city-living.au-syd.mybluemix.net/ " target="_blank" class="btn btn-lg btn-block btn-info tombol" role="button"><br><br>Among Tani</a><br>
         </div>
         <div class="col-md-4">
             <a href="#" class="btn btn-lg btn-block btn-info tombol" role="button"><br><br>Among Warga</a>

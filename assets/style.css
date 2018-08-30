@@ -12,6 +12,12 @@
 .tombol{
   height: 200px;
   width: 350px;
+  background-color: #8AB48D;
+}
+.tombolpemerintah{
+  height: 200px;
+  width: 330px;
+  background-color: #8AB48D;
 }
 * {
   margin: 0;
