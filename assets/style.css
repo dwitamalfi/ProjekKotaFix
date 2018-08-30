@@ -1,15 +1,3 @@
-/* [ -- Master Stylesheet -- ]
-
-------------------------------------------------------
-:: Template Name: World - Blog &amp; Magazine Template
-:: Author: Colorlib
-:: Author URL: https://colorlib.com
-:: Version: 1.0.0
-:: Created: March 21, 2018
-:: Last Updated: March 21, 2018
--------------------------------------------------- */
-/* Variables */
-/* mixin */
 /* :: Import Fonts */
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700|Work+Sans:300,400,500,600,700");
 /* :: Import All CSS */
@@ -33,12 +21,7 @@ body {
 .ubuntu-fonts {
   font-family: "Ubuntu", sans-serif; }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
   color: #000000;
   font-weight: 500;
   line-height: 1.3; }
@@ -66,93 +49,7 @@ a {
     /*font-size: 14px;*/
     font-weight: 400;
     color: #0000ff; }
-/*#preloader {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -ms-grid-row-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  background-color: #232323;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  z-index: 1000000; }
-*/
-/*#world-load {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  border: 3px;
-  border-style: solid;
-  border-color: transparent;
-  border-top-color: #f1f1f1;
-  -webkit-animation: world 2400ms linear infinite;
-  animation: world 2400ms linear infinite;
-  z-index: 999; }
-  #world-load:before {
-    content: "";
-    position: absolute;
-    top: 7.5px;
-    left: 7.5px;
-    right: 7.5px;
-    bottom: 7.5px;
-    border-radius: 50%;
-    border: 3px;
-    border-style: solid;
-    border-color: transparent;
-    border-top-color: #f1f1f1;
-    -webkit-animation: world 2700ms linear infinite;
-    animation: world 2700ms linear infinite; }
-  #world-load:after {
-    content: "";
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    right: 20px;
-    bottom: 20px;
-    border-radius: 50%;
-    border: 3px;
-    border-style: solid;
-    border-color: transparent;
-    border-top-color: #f1f1f1;
-    -webkit-animation: world 1800ms linear infinite;
-    animation: world 1800ms linear infinite; }
 
-@-webkit-keyframes world {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg); }
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); } }
-@keyframes world {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg); }
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); } }*/
-
-.tombol{
-  height: 180px;
-  position: relative;
-  vertical-align: middle;
-
-  border: 1px solid currentColor;
-  font-size: 1.1rem;
-  margin: 3rem 0;
-  padding: 0.75rem 3rem;
-  cursor: pointer;
-  -webkit-transition: background-color 0.28s ease, color 0.28s ease, box-shadow 0.28s ease;
-  transition: background-color 0.28s ease, color 0.28s ease, box-shadow 0.28s ease;
-  overflow: hidden;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
-}
 ul,
 ol {
   margin: 0; }
@@ -1410,8 +1307,6 @@ textarea:focus ~ .highlight {
 
 
 /* STYLE PIMPINAN */
-
-
 @import url("https://fonts.googleapis.com/css?family=Bree+Serif|Raleway:100,200,300,400,500,600,700,800,900|Yellowtail");
 .col-md-offset-right-1 {
   margin-right: 8.33333333%;
@@ -1793,11 +1688,11 @@ body, p, h1, h2, h3, h4, h5, h6 {
   }
   
   /* End Download BTN area css 
-
+/*/*
   
 /* Education Area css
 ============================================================================================ */
-.education_area {
+/*.education_area {
     padding-bottom: 60px;
   }
   
@@ -1998,7 +1893,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   .table-tight-vert > tfoot > tr > td {
     padding-top: 0;
     padding-bottom: 0;
-  }
+  }*/
 /* end calender   */
   
   
@@ -2010,3 +1905,4 @@ body, p, h1, h2, h3, h4, h5, h6 {
   
 
 /*# sourceMappingURL=style.css.map */
+*/*/
