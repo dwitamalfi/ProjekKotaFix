@@ -18,8 +18,6 @@
     <link rel="stylesheet" href="<?php echo base_url();?>assets/style.css">
 
 </head>
-
-    
 <!-- ***** Header Area Start ***** -->
     <header class="header-area">
         <div class="container">
@@ -56,14 +54,6 @@
         </div>
     </header>
 <body>
-    <!-- ***** Header Area Start ***** -->
-
-  
-    <!-- ***** Header Area End ***** -->
-
-    <!-- ********** Hero Area Start ********** -->
-   
-    <!-- ********** Hero Area End ********** -->
 
     <div class="main-content-wrapper section-padding-100">
         <div class="container">
@@ -193,10 +183,8 @@
                                     <div >
                                         <p style="text-align:justify">
                                              <hr class="invisible short" />
-                                       
                                         </p>
                                     </div>
-                                    
                                 </div>
                             </div>
                             <br /br>
@@ -208,8 +196,6 @@
                                 <li class=""><a href="?p=6&a=2" class="angka previous round" >3</a></li>
                                 <li class=""><a href="?p=6&a=21" class="angka previous round" >21</a></li>
                             <li><a href="?p=6&a=3">Next</a></li> 
-
-                            
                          </ul>
                     </div>
                 </div>

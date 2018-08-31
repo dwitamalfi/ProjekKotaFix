@@ -8,8 +8,6 @@
 @import url(css/font-awesome.min.css);
 @import url(css/themify-icons.css);
 /* :: Base CSS */
-<<<<<<< HEAD
-=======
 
 .tombol{
   height: 180px;
@@ -33,8 +31,6 @@
   height: 100px;
   width: auto; } }
 
-
->>>>>>> 1032791282cc1082ba5c3d818d4b72c50cfddcc9
 * {
   margin: 0;
   padding: 0; }
