@@ -7,19 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
     <!-- Title  -->
     <title>Website Kota Batu </title>
-
     <!-- Favicon  -->
     <link rel="icon" href="<?php echo base_url();?>assets/img/core-img/logo1.png">
-
     <!-- Style CSS -->
     <link rel="stylesheet" href="<?php echo base_url();?>assets/style.css">
-
 </head>
-
-    
 <!-- ***** Header Area Start ***** -->
     <header class="header-area">
         <div class="container">
@@ -60,9 +54,6 @@
     <div class="main-content-wrapper section-padding-100">
         <div class="container">
             <div class="row justify-content-center">
-                <!-- ============= Post Content Area ============= -->
-              
-                <!-- ========== Sidebar Area ========== -->
                    <div class="col-md-10">
                     <div class="single-blog-content mb-100">
                         <h2>Pengumuman</h2>
@@ -169,14 +160,6 @@
     <script src="<?php echo base_url();?>assets/js/plugins.js"></script>
     <!-- Active js -->
     <script src="<?php echo base_url();?>assets/js/active.js"></script>
-
-
-
 </html>
- 
-    <!-- ***** Footer Area End ***** -->
-
-    <!-- jQuery (Necessary for All JavaScript Plugins) -->
-    
 </body>
 

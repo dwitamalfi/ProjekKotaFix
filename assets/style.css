@@ -17,18 +17,21 @@
   background-color: #8AB48D;
 }
 .tombolpemerintah{
-  height: 200px;
-  width: 330px;
+  text-align-last: center;
+  padding: 25px;
+  height: 150px;
+  width: 250px;
   background-color: #8AB48D;
 }
+
  @media only screen and (min-width: 768px) and (max-width: 991px) {
     .tombol, .tombolpemerintah {
-      height: 200px;
-  width: 330px; } }
+  height: 100px;
+  width: 150px; } }
   @media only screen and (max-width: 767px) {
     .tombol, .tombolpemerintah {
-  height: 150px;
-  width: 280px; } }
+  height: 100px;
+  width: auto; } }
 
 
 >>>>>>> 1032791282cc1082ba5c3d818d4b72c50cfddcc9
@@ -992,6 +995,11 @@ textarea:focus ~ .highlight {
   animation: inputHighlighter 0.3s ease; }
 
 /*Berita*/
+.card-title a{
+  font-size: 20px;
+  color: black;
+}
+
 
 /* Animations */
 @-webkit-keyframes inputHighlighter {
@@ -1946,3 +1954,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 
 /*# sourceMappingURL=style.css.map */
 */*/
+/*Halaman Peta*/
+#peta {
+  height: 400px;
+}
