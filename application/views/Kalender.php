@@ -78,22 +78,21 @@
                             <div class="row">
                                 <div class="col-md-5"> 
                                     <a class="img-thumbnail lightbox" href="#" data-plugin-options='{"type":"image"}'>
-                                        <img class="img-responsive" src="http://placehold.it/500x600">
+                                        <img class="img-responsive1" src="http://placehold.it/500x600">
                                     </a>
                                 </div>         
                                 <div class="col-md-7">
                                     <div class="post-meta">
-                                        <h2><a href="?p=6&id=106">Gerak jalan</a></h2>
-                                        <span><i class="fa fa-tag"></i> Acara : Umum</span><br/>
-                                        <span><i class="fa fa-calendar-check-o"></i> Mulai : 21 Apr 2018 Jam 09:00 WIB</span><br/>
-                                        <span><i class="fa fa-calendar-times-o"></i> Selesai : 21 Apr 2018 Jam 12:00 WIB</span><br/>
-                                        <span><i class="fa fa-map-marker"></i> Tempat : Start Balai Kota </span><br/>
-                                        <span><i class="fa fa-user"></i> Pelaksana : - </span>
+                                        <span><i class="fa fa-calendar-check-o"></i> Tanggal : </span><br/>
+                                        <h2><a href="?p=6&id=106"></a></h2>
+                                        <span><i class="fa fa-tag"></i> Acara :</span><br/>
+                                         <span><i class="fa fa-map-marker"></i> Tempat :  </span><br/>
+                                        <span><i class="fa fa-user"></i>  Deskripsi : - </span>
                                     </div>
                                     <div >
                                         <p style="text-align:justify ; ">
-                                        -                                                <hr class="invisible short" />
-                                        <a href="<?php echo base_url()?>index.php/Read_pengumuman" class="btn btn-xs btn-primary pull-right" id="selengkapnya">Selengkapnya...</a>
+                                        <hr class="invisible short" />
+                                    <a href="<?php echo base_url()?>index.php/Read_pengumuman" class="btn btn-xs btn-primary pull-right" id="selengkapnya">Selengkapnya...</a>
                                         </p>
                                     </div>
                                 </div>
@@ -103,22 +102,22 @@
                             <div class="row">
                                 <div class="col-md-5"> 
                                      <a class="img-thumbnail lightbox" href="#" data-plugin-options='{"type":"image"}'>
-                                        <img class="img-responsive" src="http://placehold.it/500x600">
+                                        <img class="img-responsive1" src="http://placehold.it/500x600">
                                     </a>
                                 </div>         
                                 <div class="col-md-7">
                                     <div class="post-meta">
-                                        <h2><a href="?p=6&id=104">BATU Art Festival</a></h2>
-                                        <span><i class="fa fa-tag"></i> Acara : Umum</span><br/>
-                                        <span><i class="fa fa-calendar-check-o"></i> Mulai : 20 Apr 2018 Jam 09:00 WIB</span><br/>
-                                        <span><i class="fa fa-calendar-times-o"></i> Selesai : 24 Apr 2018 Jam 22:00 WIB</span><br/>
-                                        <span><i class="fa fa-map-marker"></i> Tempat : Alun-alun Kota Batu</span><br/>
-                                        <span><i class="fa fa-user"></i> Pelaksana : - </span>
+                                        
+                                    <span><i class="fa fa-calendar-check-o"></i> Tanggal : </span><br/>
+                                        <h2><a href="?p=6&id=104"></a></h2>
+                                        <span><i class="fa fa-tag"></i> Acara : </span><br/>
+                                        <span><i class="fa fa-calendar-check-o"></i> Tanggal : </span><br/>
+                                        <span><i class="fa fa-map-marker"></i> Tempat : </span><br/>
+                                        <span><i class="fa fa-user"></i>  Deskripsi : - </span>
                                     </div>
                                     <div >
                                         <p style="text-align:justify">
-                                        -
-                                        <a href="<?php echo base_url()?>index.php/Read_pengumuman" class="btn btn-xs btn-primary pull-right" id="selengkapnya">Selengkapnya...</a>
+                                        <a href="<?php   echo base_url()?>index.php/Read_pengumuman" class="btn btn-xs btn-primary pull-right" id="selengkapnya">Selengkapnya...</a>
                                         </p>
                                     </div>
                                 </div>
@@ -128,42 +127,43 @@
                             <div class="row">
                                 <div class="col-md-5"> 
                                      <a class="img-thumbnail lightbox" href="#" data-plugin-options='{"type":"image"}'>
-                                        <img class="img-responsive" src="http://placehold.it/500x600">
+                                        <img class="img-responsive1" src="http://placehold.it/500x600">
                                     </a>
                                 </div>         
                                 <div class="col-md-7">
                                     <div class="post-meta">
-                                        <h2><a href="?p=6&id=103">Senam Massal </a></h2>
+                                        
+                                    <span><i class="fa fa-calendar-check-o"></i> Tanggal : </span><br/>
+                                        <h2><a href="?p=6&id=103"></a></h2>
                                         <span><i class="fa fa-tag"></i> Acara : Umum</span><br/>
-                                        <span><i class="fa fa-calendar-check-o"></i> Mulai : 15 Apr 2018 Jam 06:00 WIB</span><br/>
-                                        <span><i class="fa fa-calendar-times-o"></i> Selesai : 15 Apr 2018 Jam 11:00 WIB</span><br/>
-                                        <span><i class="fa fa-map-marker"></i> Tempat : Alun-Alun Batu</span><br/>
-                                        <span><i class="fa fa-user"></i> Pelaksana : </span>
+                                        <span><i class="fa fa-calendar-check-o"></i> Tanggal : </span><br/>
+                                        <span><i class="fa fa-user"></i>Deskripsi : </span>
                                     </div>
                                     <div >
                                         <p style="text-align:justify">
-                                      <hr class="invisible short" />
+                                      <hr class="invisible short" /hr>
+                                      <hr /hr>
                                         <a href="<?php echo base_url()?>index.php/Read_pengumuman" class="btn btn-xs btn-primary pull-right" id="selengkapnya">Selengkapnya...</a>
                                         </p>
                                     </div>
-                                </div>
+                                </div>z
                             </div>
                         </article>
                         <article class="post-content">
                             <div class="row">
                                 <div class="col-md-5"> 
                                     <a class="img-thumbnail lightbox" href="#" data-plugin-options='{"type":"image"}'>
-                                        <img class="img-responsive" src="http://placehold.it/500x600">
+                                        <img class="img-responsive1" src="http://placehold.it/500x600">
                                     </a>
                                 </div>         
                                 <div class="col-md-7">
                                     <div class="post-meta">
+                                        
+                                    <span><i class="fa fa-calendar-check-o"></i> Tanggal : </span><br/>
                                         <h2><a href="?p=6&id=101">Batu Bershalawat</a></h2>
                                         <span><i class="fa fa-tag"></i> Acara : Umum</span><br/>
-                                        <span><i class="fa fa-calendar-check-o"></i> Mulai : 14 Apr 2018 Jam 20:00 WIB</span><br/>
-                                        <span><i class="fa fa-calendar-times-o"></i> Selesai : 14 Apr 2018 Jam 23:59 WIB</span><br/>
-                                        <span><i class="fa fa-map-marker"></i> Tempat : </span><br/>
-                                        <span><i class="fa fa-user"></i> Pelaksana : </span>
+                                       <span><i class="fa fa-map-marker"></i> Tempat : </span><br/>
+                                        <span><i class="fa fa-user"></i>  Deskripsi : </span>
                                     </div>
                                     <div >
                                         <p style="text-align:justify">
@@ -178,17 +178,17 @@
                             <div class="row">
                                 <div class="col-md-5"> 
                                      <a class="img-thumbnail lightbox" href="#" data-plugin-options='{"type":"image"}'>
-                                        <img class="img-responsive" src="http://placehold.it/500x600">
+                                        <img class="img-responsive1" src="http://placehold.it/500x600">
                                     </a>
                                 </div>         
                                 <div class="col-md-7">
                                     <div class="post-meta">
-                                        <h2><a href="?p=6&id=102">Istbat dan Nikah Masal</a></h2>
+                                        
+                                    <span><i class="fa fa-calendar-check-o"></i> Tanggal : </span><br/>
+                                        <h2><a href="?p=6&id=102"></a></h2>
                                         <span><i class="fa fa-tag"></i> Acara : Umum</span><br/>
-                                        <span><i class="fa fa-calendar-check-o"></i> Mulai : 14 Apr 2018 Jam 09:00 WIB</span><br/>
-                                        <span><i class="fa fa-calendar-times-o"></i> Selesai : 14 Apr 2018 Jam 11:00 WIB</span><br/>
-                                        <span><i class="fa fa-map-marker"></i> Tempat : </span><br/>
-                                        <span><i class="fa fa-user"></i> Pelaksana : </span>
+                                       <span><i class="fa fa-map-marker"></i> Tempat : </span><br/>
+                                        <span><i class="fa fa-user"></i>  Deskripsi : </span>
                                     </div>
                                     <div >
                                         <p style="text-align:justify">

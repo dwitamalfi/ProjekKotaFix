@@ -1398,17 +1398,33 @@ body, p, h1, h2, h3, h4, h5, h6 {
   /* End Main title css
   ============================================================================================ */
 
+/* kalendar*/
+.img-responsive1 {
+  max-width: 200px;
+  margin-left: 75px;
+}
+
+
+
+
+
   /* About Person area css
 ============================================================================================ */
 .about_person_area {
-    background: #fff;
-    margin-top: 60px;
-    padding-top: 70px;
-    padding-bottom: 40px;
+  background: rgb(255, 255, 255);
+  margin-top: 18px;
+  padding-top: 22px;
+  padding-bottom: 18px;
   }
   
   .about_person_area .person_img {
-    max-width: 322px;
+    max-width: 147px;
+    margin-left: 75px;
+  }
+  } 
+
+  #profil{
+    align: center;
   }
   
   .about_person_area .person_img img {
