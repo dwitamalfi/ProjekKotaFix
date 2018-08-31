@@ -86,25 +86,7 @@
                             <div class="col-md-4">
                                 <a href="http://dpmptsptk.batukota.go.id" class="btn btn-lg btn-block btn-info tombol" role="button"><br>Dinas Penanaman Modal <br>Pelayanan Terpadu Satu Pintu <br>dan Tenaga Kerja</a>
                             </div>
-                             <!-- <div class="col-md-4">
-                                 <div class="post-thumbnail" id="skpd">
-                                    <a href="http://disdik.batukota.go.id/disdik/">
-                                    <img src="<?php echo base_url();?>assets/img/core-img/DISDIK.png" alt=""></a>
-                                </div>
-                            </div>
-                             <div class="col-md-4">
-                                 <div class="post-thumbnail" id="skpd">
-                                    <a href="http://dispendukcapil.batukota.go.id/">
-                                    <img src="<?php echo base_url();?>assets/img/core-img/DISPENDUKCAPIL.png" alt=""></a>
-                                </div>
-                            </div>
-                             <div class="col-md-4">
-                                 <div class="post-thumbnail" id="skpd">
-                                    <a href="http://dpmptsptk.batukota.go.id">
-                                    <img src="<?php echo base_url();?>assets/img/core-img/DPMPTSPTK.png" alt=""></a>
-                                </div>
-                            </div> -->
-                        </div><br>
+                         </div><br>
                         <div class="row justify-content-center">
                             <div class="col-md-4">
                                 <a href="http://dinsos.batukota.go.id" class="btn btn-lg btn-block btn-info tombol" role="button"><br><br>Dinas Sosial</a>
@@ -112,31 +94,8 @@
                             <div class="col-md-4">
                                 <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombol" role="button"><br><br>Kesejahteraan Masyarakat</a>
                             </div>
-                             <!-- <div class="col-md-4">
-                                 <div class="post-thumbnail" id="skpd">
-                                    <a href="http://dinsos.batukota.go.id">
-                                    <img src="<?php echo base_url();?>assets/img/core-img/DINSOS.png" alt=""></a>
-                                </div>
-                            </div>
-                             <div class="col-md-4">
-                                 <div class="post-thumbnail" id="skpd">
-                                    <a href="http://kesra.batukota.go.id">
-                                    <img src="<?php echo base_url();?>assets/img/core-img/KESRA.png" alt=""></a>
-                                </div>
-                            </div> -->
-                             
                         </div>
 
-                          
-                            <!-- <blockquote class="mb-30">
-                                <h6>Aliquam auctor lacus a dapibus pulvinar. Morbi in elit erat. Quisque et augue nec tortor blandit hendrerit eget sit amet sapien. Curabitur at tincidunt metus, quis porta ex. Duis lacinia metus vel eros cursus pretium eget.</h6>
-                                <div class="post-author">
-                                    <p>Robert Morgan</p>
-                                </div>
-                            </blockquote> -->
-                            
-                            <!-- Post Tags -->
-                            
                             <!-- Post Meta -->
                             
                         </div>
@@ -224,14 +183,6 @@
     <script src="<?php echo base_url();?>assets/js/plugins.js"></script>
     <!-- Active js -->
     <script src="<?php echo base_url();?>assets/js/active.js"></script>
-
-
-
-</html>
- 
-    <!-- ***** Footer Area End ***** -->
-
-    <!-- jQuery (Necessary for All JavaScript Plugins) -->
-    
+</html>    
 </body>
 

@@ -92,7 +92,7 @@
                                     <div >
                                         <p style="text-align:justify ; ">
                                         <hr class="invisible short" />
-                                    <a href="<?php echo base_url()?>index.php/Read_pengumuman" class="btn btn-xs btn-primary pull-right" id="selengkapnya">Selengkapnya...</a>
+                                    <!-- <a href="<?php echo base_url()?>index.php/Read_kalender" class="btn btn-xs btn-primary pull-right" id="selengkapnya">Selengkapnya...</a> -->
                                         </p>
                                     </div>
                                 </div>
@@ -117,7 +117,7 @@
                                     </div>
                                     <div >
                                         <p style="text-align:justify">
-                                        <a href="<?php   echo base_url()?>index.php/Read_pengumuman" class="btn btn-xs btn-primary pull-right" id="selengkapnya">Selengkapnya...</a>
+                                        
                                         </p>
                                     </div>
                                 </div>
@@ -143,10 +143,10 @@
                                         <p style="text-align:justify">
                                       <hr class="invisible short" /hr>
                                       <hr /hr>
-                                        <a href="<?php echo base_url()?>index.php/Read_pengumuman" class="btn btn-xs btn-primary pull-right" id="selengkapnya">Selengkapnya...</a>
+                                       
                                         </p>
                                     </div>
-                                </div>z
+                                </div>
                             </div>
                         </article>
                         <article class="post-content">
@@ -168,7 +168,7 @@
                                     <div >
                                         <p style="text-align:justify">
                                                                                       <hr class="invisible short">
-                                        <a href="<?php echo base_url()?>index.php/Read_pengumuman" class="btn btn-xs btn-primary pull-right" id="selengkapnya">Selengkapnya...</a>
+                                        
                                         </p>
                                     </div>
                                 </div>
@@ -192,8 +192,8 @@
                                     </div>
                                     <div >
                                         <p style="text-align:justify">
-                                        -                                                <hr class="invisible short" />
-                                        <a href="<?php echo base_url()?>index.php/Read_pengumuman" class="btn btn-xs btn-primary pull-right" id="selengkapnya">Selengkapnya...</a>
+                                             <hr class="invisible short" />
+                                       
                                         </p>
                                     </div>
                                     
