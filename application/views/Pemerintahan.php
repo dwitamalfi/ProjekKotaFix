@@ -64,7 +64,7 @@
                     <div class="single-blog-content mb-100">
                         <div class="post-content" >
                            <div class="row justify-content-center">
-<<<<<<< HEAD
+
                             <div class="col-md-4">
                                 <a href="http://disdik.batukota.go.id" target="_blank" class="btn btn-lg btn-block btn-info tombol" role="button"><br><br> Dinas Pendidikan </a>
                             </div>
@@ -76,13 +76,7 @@
                             </div>
                          </div><br>
                         <div class="row justify-content-center">
-                            <div class="col-md-4">
-                                <a href="http://dinsos.batukota.go.id" class="btn btn-lg btn-block btn-info tombol" role="button"><br><br>Dinas Sosial</a>
-                            </div>
-                            <div class="col-md-4">
-                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombol" role="button"><br><br>Kesejahteraan Masyarakat</a>
-=======
-                            <div class="col-md-3">
+                            
                                 <a href="http://disdik.batukota.go.id" target="_blank" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Dinas Pendidikan </a><br>
                             </div>
                             <div class="col-md-3">
@@ -108,7 +102,7 @@
                             </div>
                             <div class="col-md-3">
                                 <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
->>>>>>> 8c6c514b7c55d6375eae3b43b0f83a82f3d85893
+
                             </div>
                         </div>
                         <div class="row justify-content-center">

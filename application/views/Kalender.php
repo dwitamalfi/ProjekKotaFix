@@ -77,9 +77,9 @@
                                  <article class="post-content">
                             <div class="row">
                                 <div class="col-md-5"> 
-                                    <a class="img-thumbnail lightbox" href="#" data-plugin-options='{"type":"image"}'>
+                                    
                                         <img class="img-responsive1" src="http://placehold.it/500x600">
-                                    </a>
+                                    
                                 </div>         
                                 <div class="col-md-7">
                                     <div class="post-meta">
@@ -89,7 +89,7 @@
                                          <span><i class="fa fa-map-marker"></i> Tempat :  </span><br/>
                                         <span><i class="fa fa-user"></i>  Deskripsi : - </span>
                                     </div>
-                                    <div >
+                                    <div>
                                         <p style="text-align:justify ; ">
                                         <hr class="invisible short" />
                                     <!-- <a href="<?php echo base_url()?>index.php/Read_kalender" class="btn btn-xs btn-primary pull-right" id="selengkapnya">Selengkapnya...</a> -->
@@ -101,8 +101,7 @@
                         <article class="post-content">
                             <div class="row">
                                 <div class="col-md-5"> 
-                                     <a class="img-thumbnail lightbox" href="#" data-plugin-options='{"type":"image"}'>
-                                        <img class="img-responsive1" src="http://placehold.it/500x600">
+                                       <img class="img-responsive1" src="http://placehold.it/500x600">
                                     </a>
                                 </div>         
                                 <div class="col-md-7">
@@ -126,7 +125,7 @@
                         <article class="post-content">
                             <div class="row">
                                 <div class="col-md-5"> 
-                                     <a class="img-thumbnail lightbox" href="#" data-plugin-options='{"type":"image"}'>
+                                     
                                         <img class="img-responsive1" src="http://placehold.it/500x600">
                                     </a>
                                 </div>         
@@ -142,9 +141,7 @@
                                     <div >
                                         <p style="text-align:justify">
                                       <hr class="invisible short" /hr>
-                                      <hr /hr>
-                                       
-                                        </p>
+                                      </p>
                                     </div>
                                 </div>
                             </div>
@@ -152,7 +149,7 @@
                         <article class="post-content">
                             <div class="row">
                                 <div class="col-md-5"> 
-                                    <a class="img-thumbnail lightbox" href="#" data-plugin-options='{"type":"image"}'>
+                                  
                                         <img class="img-responsive1" src="http://placehold.it/500x600">
                                     </a>
                                 </div>         
@@ -177,7 +174,7 @@
                         <article class="post-content">
                             <div class="row">
                                 <div class="col-md-5"> 
-                                     <a class="img-thumbnail lightbox" href="#" data-plugin-options='{"type":"image"}'>
+                                    
                                         <img class="img-responsive1" src="http://placehold.it/500x600">
                                     </a>
                                 </div>         
@@ -193,28 +190,38 @@
                                     <div >
                                         <p style="text-align:justify">
                                              <hr class="invisible short" />
-                                       
                                         </p>
                                     </div>
-                                    
-                                </div>
+                                  </div>
                             </div>
-                            <br /br>
-                        </article>
-                        <ul class="pagination pagination-lg pull-right ">
-                                <li><a href="?p=6&a=1">Previous</a> </li>
-                                <li class=""><a href="#" class="angka previous round"> 1 </a></li>
-                                <li class=""><a href="#" class="angka previous round"> 2 </a></li>
-                                <li class=""><a href="?p=6&a=2" class="angka previous round" >3</a></li>
-                                <li class=""><a href="?p=6&a=21" class="angka previous round" >21</a></li>
-                            <li><a href="?p=6&a=3">Next</a></li> 
+                          </article>
+                        <ul class="pagination justify-content-center" style="padding-top: 30px;">
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+            <span class="sr-only">Previous</span>
+          </a>
+        </li>
+        <li class="page-item">    
+          <a class="page-link" href="#">1</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">2</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">3</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+            <span class="sr-only">Next</span>
+          </a>
+        </li>
+      </ul>
 
-                            
-                         </ul>
                     </div>
                 </div>
             </div>
-<hr> </hr>
           
         </div>
     </div>
