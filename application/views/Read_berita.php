@@ -59,6 +59,7 @@
                         
                         <article class="post-content">
                           <div class="col-md-12"> 
+                             <h2>Penataan PKL di Alun-alun Kota Batu</h2> <!--Judul Berita-->
                                     <a class="img-thumbnail lightbox" href="img/acara/20180320153245-1-0-Khitanan_Masal.jpg" data-plugin-options='{"type":"image"}'>
                                         <img class="card-img" src="<?php echo base_url()?>assets/img/Berita/001.jpg">
                                     </a>
@@ -67,9 +68,9 @@
                                       
                                 <div class="col-md-12">
                                     <div class="post-meta">
-                                        <h2>Penataan PKL di Alun-alun Kota Batu</h2> <!--Judul Berita-->
+                                       
                                         <span><i class="fa fa-calendar-times-o"></i>Jumat, 2018-07-27 </span><br/><!--Tanggal Update-->
-                                        <p> Setelah pembagian stand PKL Alun-Alun pada senin (23/07/2018) lalu, Wakil Walikota Batu H. Punjul Santoso didampingi dengan Pj. Sekda Kota Batu, Kepala OPD terkait, Forkopimda, TNI dan Polri kembali melakukan peninjauan lokasi berjualan PKL di Alun-alun Batu pada Rabu sore (25/03/2018).
+                                        <p align="justify"> Setelah pembagian stand PKL Alun-Alun pada senin (23/07/2018) lalu, Wakil Walikota Batu H. Punjul Santoso didampingi dengan Pj. Sekda Kota Batu, Kepala OPD terkait, Forkopimda, TNI dan Polri kembali melakukan peninjauan lokasi berjualan PKL di Alun-alun Batu pada Rabu sore (25/03/2018).
 
 Dalam hal penataan PKL alun-alun, Pemerintah memberikan kebijakan dan menyepakati untuk memberikan tempat serta fasilitas kepada PKL sembari menunggu tempat berjualan yang lebih representatif. Jika sebelumnya beberapa PKL masih menempati trotoar, hari ini dengan didampingi Wakil Walikota, Pedagang kaki lima telah menempati tempat yang telah ditentukan.
 

@@ -56,64 +56,195 @@
         </div>
     </header>
 <body>
-    <!-- ***** Header Area Start ***** -->
-
-  
-    <!-- ***** Header Area End ***** -->
-
-    <!-- ********** Hero Area Start ********** -->
-   
-    <!-- ********** Hero Area End ********** -->
-
     <div class="main-content-wrapper section-padding-100">
         <div class="container">
             <div class="row justify-content-center">
                 <!-- ============= Post Content Area ============= -->
                 <div class="col-12 ">
                     <div class="single-blog-content mb-100">
-                        <!-- Post Meta -->
-                        
-                        <!-- Post Content -->
-                        
                         <div class="post-content" >
                            <div class="row justify-content-center">
-                            <div class="col-md-4">
-                                <a href="http://disdik.batukota.go.id" target="_blank" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button"><br><br> Dinas Pendidikan </a><br>
+                            <div class="col-md-3">
+                                <a href="http://disdik.batukota.go.id" target="_blank" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Dinas Pendidikan </a><br>
                             </div>
-                            <div class="col-md-4">
-                                <a href="http://dispendukcapil.batukota.go.id/ " target="_blank" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button"><br><br>Dinas Kependudukan <br>dan Catatan Sipil</a><br>
+                            <div class="col-md-3">
+                                <a href="http://dispendukcapil.batukota.go.id/ " target="_blank" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Dinas Kependudukan <br>dan Catatan Sipil</a><br>
                             </div>
-                            <div class="col-md-4">
-                                <a href="http://dpmptsptk.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button"><br>Dinas Penanaman Modal <br>Pelayanan Terpadu Satu Pintu <br>dan Tenaga Kerja</a>
+                            <div class="col-md-3">
+                                <a href="http://dpmptsptk.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Dinas Penanaman <br> Modal Pelayanan <br> Terpadu Satu Pintu <br>dan Tenaga Kerja</a><br>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="http://dinsos.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Dinas Sosial</a><br>
                             </div>
                          </div><br>
                         <div class="row justify-content-center">
-                            <div class="col-md-4">
-                                <a href="http://dinsos.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button"><br><br>Dinas Sosial</a><br>
+                            
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
                             </div>
-                            <div class="col-md-4">
-                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button"><br><br>Kesejahteraan Masyarakat</a><br>
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
                             </div>
                         </div>
-
-                            <!-- Post Meta -->
+                        <div class="row justify-content-center">
                             
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button">Kesejahteraan <br>Masyarakat</a><br>
+                            </div>
+                        </div>
                         </div>
                     </div>
-     
-                </div>
-
-                
-      
+              </div>
             </div>
-
-            <!-- ============== Related Post ============== -->
-          
         </div>
-    
     </div> 
-
-
     <!-- ***** Footer Area Start ***** -->
     <footer class="footer-area">
         <div class="container">

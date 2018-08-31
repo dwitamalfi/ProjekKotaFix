@@ -61,12 +61,12 @@
       <div class="row">
         <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a><!--Poster Berita-->
+            <a href="<?php echo base_url()?>index.php/Read_berita"><img class="card-img-top" src="<?php echo base_url()?>assets/img/Berita/001.jpg" alt=""></a><!--Poster Berita-->
             <div class="card-body">
               <h4 class="card-title">
-                <a href="<?php echo base_url()?>index.php/Read_berita">Project One</a> <!--Judul Berita-->
+                <a href="<?php echo base_url()?>index.php/Read_berita"><b>Penataan PKL di Alun-alun Kota Batu</b></a> <!--Judul Berita-->
               </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p> <!--Isi Berita-->
+              <a href="<?php echo base_url()?>index.php/Read_berita"><p class="card-text">Setelah pembagian stand PKL Alun-Alun pada senin (23/07/2018) lalu, Wakil Walikota Batu H. Punjul Santoso didampingi dengan Pj. Sekda Kota Batu, Kepala OPD terkait, Forkopimda...</p> </a><!--Isi Berita-->
             </div>
           </div>
         </div>

@@ -1,13 +1,4 @@
 <body>
-    <!-- ***** Header Area Start ***** -->
-
-  
-    <!-- ***** Header Area End ***** -->
-
-    <!-- ********** Hero Area Start ********** -->
-   
-    <!-- ********** Hero Area End ********** -->
-
     <div class="main-content-wrapper section-padding-100">
         <div class="container">
             <div class="row justify-content-center">
@@ -82,39 +73,13 @@ Menunjukkan sebutan bagi Kota dan Pemerintah Kota Batu.</p>
 <p>12.&nbsp;<strong>Hakaryo Guno Mamayu Bawono</strong><br />
 Merupakan makna Condro Sengkolo yang mengandung arti Berkarya Guna Membangun Negara. Condro Sengkolo 1934 adalah Tahun Jawa yang merupakan peresmian Pemerintah Kota Batu dengan nilai kata : Hakaryo = 4, Guno = 3, Mamayu = 9, Bawono = 1 berjumlah 17, sebgai tanggal peresmian Kota Batu, dengan jumlah suku kata 11 bermakna dasar Hukum peresmian Kota Batu diatur dalam UUN 11 Th 2001</p>
 <br></h6>
-                            <!-- <blockquote class="mb-30">
-                                <h6>Aliquam auctor lacus a dapibus pulvinar. Morbi in elit erat. Quisque et augue nec tortor blandit hendrerit eget sit amet sapien. Curabitur at tincidunt metus, quis porta ex. Duis lacinia metus vel eros cursus pretium eget.</h6>
-                                <div class="post-author">
-                                    <p>Robert Morgan</p>
+                                <div class="post-meta second-part">
                                 </div>
-                            </blockquote> -->
-                            
-                            <!-- Post Tags -->
-                            
-                            <!-- Post Meta -->
-                            <div class="post-meta second-part">
-                                <p><a href="#" class="post-author">Katy Liu</a> on <a href="#" class="post-date">Sep 29, 2017 at 9:48 am</a></p>
-                            </div>
                         </div>
                     </div>
                 </div>
-
-                <!-- ========== Sidebar Area ========== -->
-                
             </div>
-
-            <!-- ============== Related Post ============== -->
-            
-
-            
         </div>
     </div>
-
-    <!-- ***** Footer Area Start ***** -->
- 
-    <!-- ***** Footer Area End ***** -->
-
-    <!-- jQuery (Necessary for All JavaScript Plugins) -->
-    
 </body>
 
