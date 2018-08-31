@@ -1,31 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
     <!-- Title  -->
     <title>Website Kota Batu </title>
-
     <!-- Favicon  -->
     <link rel="icon" href="<?php echo base_url();?>assets/img/core-img/logo1.png">
-
     <!-- Style CSS -->
     <link rel="stylesheet" href="<?php echo base_url();?>assets/style.css">
-
 </head>
-
-    
 <!-- ***** Header Area Start ***** -->
     <header class="header-area">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    
                     <nav class="navbar navbar-expand-lg" id="navi">
                         <!-- Logo -->
                         <a class="navbar-brand" href="<?php echo base_url(); ?>" ><img id="logo" src="<?php echo base_url();?>assets/img/core-img/logo2.png" alt="Logo"> <b>PEMERINTAH</b> KOTA BATU</a>
@@ -37,9 +29,9 @@
                                 <li class="nav-item ">
                                     <a class="nav-link" href="<?php echo base_url();?>">Beranda <span class="sr-only">(current)</span></a>
                                 </li>
-                                 <li class="nav-item <?php if($this->uri->segment('1')=="Pemerintahan") {echo "active";}   ?>">
-                                    <a class="nav-link" href="">Pemerintahan</a>
-                                </li>
+                                 <li class="nav-item <?php if($this->uri->segment('1')=="Read_berita") {echo "active";}   ?>">
+                                    <a class="nav-link">Berita</a>
+                                </li>                                                              
                             </ul>
                             <!-- Search Form  -->
                             <div id="search-wrapper">
@@ -56,66 +48,55 @@
         </div>
     </header>
 <body>
-    <!-- ***** Header Area Start ***** -->
-
-  
-    <!-- ***** Header Area End ***** -->
-
-    <!-- ********** Hero Area Start ********** -->
-   
-    <!-- ********** Hero Area End ********** -->
-
-    <div class="main-content-wrapper section-padding-100">
+ <div class="main-content-wrapper section-padding-100">
         <div class="container">
             <div class="row justify-content-center">
                 <!-- ============= Post Content Area ============= -->
-                <div class="col-12 ">
+              
+                <!-- ========== Sidebar Area ========== -->
+                   <div class="col-md-10">
                     <div class="single-blog-content mb-100">
-                        <!-- Post Meta -->
                         
-                        <!-- Post Content -->
-                        
-                        <div class="post-content" >
-                           <div class="row justify-content-center">
-                            <div class="col-md-4">
-                                <a href="http://disdik.batukota.go.id" target="_blank" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button"><br><br> Dinas Pendidikan </a><br>
-                            </div>
-                            <div class="col-md-4">
-                                <a href="http://dispendukcapil.batukota.go.id/ " target="_blank" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button"><br><br>Dinas Kependudukan <br>dan Catatan Sipil</a><br>
-                            </div>
-                            <div class="col-md-4">
-                                <a href="http://dpmptsptk.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button"><br>Dinas Penanaman Modal <br>Pelayanan Terpadu Satu Pintu <br>dan Tenaga Kerja</a>
-                            </div>
-                         </div><br>
-                        <div class="row justify-content-center">
-                            <div class="col-md-4">
-                                <a href="http://dinsos.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button"><br><br>Dinas Sosial</a><br>
-                            </div>
-                            <div class="col-md-4">
-                                <a href="http://kesra.batukota.go.id" class="btn btn-lg btn-block btn-info tombolpemerintah" role="button"><br><br>Kesejahteraan Masyarakat</a><br>
-                            </div>
-                        </div>
+                        <article class="post-content">
+                          <div class="col-md-12"> 
+                                    <a class="img-thumbnail lightbox" href="img/acara/20180320153245-1-0-Khitanan_Masal.jpg" data-plugin-options='{"type":"image"}'>
+                                        <img class="card-img" src="<?php echo base_url()?>assets/img/Berita/001.jpg">
+                                    </a>
+                                </div>   
+                            <div class="row">
+                                      
+                                <div class="col-md-12">
+                                    <div class="post-meta">
+                                        <h2>Penataan PKL di Alun-alun Kota Batu</h2> <!--Judul Berita-->
+                                        <span><i class="fa fa-calendar-times-o"></i>Jumat, 2018-07-27 </span><br/><!--Tanggal Update-->
+                                        <p> Setelah pembagian stand PKL Alun-Alun pada senin (23/07/2018) lalu, Wakil Walikota Batu H. Punjul Santoso didampingi dengan Pj. Sekda Kota Batu, Kepala OPD terkait, Forkopimda, TNI dan Polri kembali melakukan peninjauan lokasi berjualan PKL di Alun-alun Batu pada Rabu sore (25/03/2018).
 
-                            <!-- Post Meta -->
+Dalam hal penataan PKL alun-alun, Pemerintah memberikan kebijakan dan menyepakati untuk memberikan tempat serta fasilitas kepada PKL sembari menunggu tempat berjualan yang lebih representatif. Jika sebelumnya beberapa PKL masih menempati trotoar, hari ini dengan didampingi Wakil Walikota, Pedagang kaki lima telah menempati tempat yang telah ditentukan.
+
+Pemerintah daerah akan terus mengawal dan mendampingi penataan PKL ini, sembari menunggu tempat yang lebih representatif, pemerintah telah menyediakan tempat dan ditata agar lebih tertib tutur Punjul Santoso
+
+Setiap lapak wajib megikuti aturan dan kebijakan dari Pemerintah. Lapak diperbolehkan berjualan mulai pukul empat sore hingga empat pagi, dan PKL yang boleh berjualan merupakan PKL yang telah didata oleh Diskoperindag. Untuk penataan parkir dilakukan disebelah barat dan selatan alun-alun dan jalan sudiro. Akses menuju alun-alun akan tetap dibuka agar memudahkan pengunjung.
+
+Diperbolehkan berjualan mulai jam empat sore hingga empat pagi, selebihnya harus sudah bersih dan PKL yang boleh menempati adalah PKL yang sudah didata di Diskoperindag Imbuh Wawali.
+
+Pemerintah dalam hal ini akan terus mengawal dalam hal penataan PKL di Kota Batu serta membuat kebijakan yang terbaik bagi pedagang, pengunjung maupun pemerintah.</p>
+                                    </div>
+                                    <div >
+                                        <p style="text-align:justify ; ">
+                                        -                                                <hr class="invisible short" />
                             
-                        </div>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
                     </div>
-     
                 </div>
-
-                
-      
             </div>
-
-            <!-- ============== Related Post ============== -->
-          
         </div>
-    
-    </div> 
-
-
-    <!-- ***** Footer Area Start ***** -->
-    <footer class="footer-area">
+    </div>
+</body>
+<footer class="footer-area">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -183,6 +164,8 @@
     <script src="<?php echo base_url();?>assets/js/plugins.js"></script>
     <!-- Active js -->
     <script src="<?php echo base_url();?>assets/js/active.js"></script>
-</html>    
-</body>
 
+
+
+</html>
+</html>

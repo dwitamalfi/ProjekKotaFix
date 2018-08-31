@@ -56,14 +56,6 @@
         </div>
     </header>
 <body>
-    <!-- ***** Header Area Start ***** -->
-
-  
-    <!-- ***** Header Area End ***** -->
-
-    <!-- ********** Hero Area Start ********** -->
-   
-    <!-- ********** Hero Area End ********** -->
 
     <div class="main-content-wrapper section-padding-100">
         <div class="container">
@@ -99,23 +91,15 @@
                                 </div>
                             </div>
                         </article>
-                       
-                        
-                        
-                       
-                       
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+</body>
 <hr> </hr>
           
             <!-- ============== Related Post ============== -->
-           
-
-            
-        </div>
-    </div>
-
     <!-- ***** Footer Area Start ***** -->
     <footer class="footer-area">
         <div class="container">
