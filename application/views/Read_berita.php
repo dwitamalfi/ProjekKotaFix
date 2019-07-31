@@ -29,8 +29,8 @@
                                 <li class="nav-item ">
                                     <a class="nav-link" href="<?php echo base_url();?>">Beranda <span class="sr-only">(current)</span></a>
                                 </li>
-                                 <li class="nav-item <?php if($this->uri->segment('1')=="Read_berita") {echo "active";}   ?>">
-                                    <a class="nav-link">Berita</a>
+                                 <li class="nav-item <?php if($this->uri->segment('2')=="readBerita") {echo "active";}   ?>">
+                                    <a class="nav-link"  href="<?php echo base_url();?>index.php/Berita">Berita</a>
                                 </li>                                                              
                             </ul>
                             <!-- Search Form  -->
@@ -56,12 +56,13 @@
                 <!-- ========== Sidebar Area ========== -->
                    <div class="col-md-10">
                     <div class="single-blog-content mb-100">
-                        
+                        <input type="hidden" name="id" value="<?php echo $berita->id_berita?>" />
+                     
                         <article class="post-content">
                           <div class="col-md-12"> 
-                             <h2>Penataan PKL di Alun-alun Kota Batu</h2> <!--Judul Berita-->
+                             <h2><?php echo $berita->judul  ?></h2> <!--Judul Berita-->
                                     <a class="img-thumbnail lightbox" href="img/acara/20180320153245-1-0-Khitanan_Masal.jpg" data-plugin-options='{"type":"image"}'>
-                                        <img class="card-img" src="<?php echo base_url()?>assets/img/Berita/001.jpg">
+                                        <img class="card-img" src="<?php echo base_url()?>upload/berita/<?php echo $berita->gambar  ?>">
                                     </a>
                                 </div>   
                             <div class="row">
@@ -69,18 +70,8 @@
                                 <div class="col-md-12">
                                     <div class="post-meta">
                                        
-                                        <span><i class="fa fa-calendar-times-o"></i>Jumat, 2018-07-27 </span><br/><!--Tanggal Update-->
-                                        <p align="justify"> Setelah pembagian stand PKL Alun-Alun pada senin (23/07/2018) lalu, Wakil Walikota Batu H. Punjul Santoso didampingi dengan Pj. Sekda Kota Batu, Kepala OPD terkait, Forkopimda, TNI dan Polri kembali melakukan peninjauan lokasi berjualan PKL di Alun-alun Batu pada Rabu sore (25/03/2018).
-
-Dalam hal penataan PKL alun-alun, Pemerintah memberikan kebijakan dan menyepakati untuk memberikan tempat serta fasilitas kepada PKL sembari menunggu tempat berjualan yang lebih representatif. Jika sebelumnya beberapa PKL masih menempati trotoar, hari ini dengan didampingi Wakil Walikota, Pedagang kaki lima telah menempati tempat yang telah ditentukan.
-
-Pemerintah daerah akan terus mengawal dan mendampingi penataan PKL ini, sembari menunggu tempat yang lebih representatif, pemerintah telah menyediakan tempat dan ditata agar lebih tertib tutur Punjul Santoso
-
-Setiap lapak wajib megikuti aturan dan kebijakan dari Pemerintah. Lapak diperbolehkan berjualan mulai pukul empat sore hingga empat pagi, dan PKL yang boleh berjualan merupakan PKL yang telah didata oleh Diskoperindag. Untuk penataan parkir dilakukan disebelah barat dan selatan alun-alun dan jalan sudiro. Akses menuju alun-alun akan tetap dibuka agar memudahkan pengunjung.
-
-Diperbolehkan berjualan mulai jam empat sore hingga empat pagi, selebihnya harus sudah bersih dan PKL yang boleh menempati adalah PKL yang sudah didata di Diskoperindag Imbuh Wawali.
-
-Pemerintah dalam hal ini akan terus mengawal dalam hal penataan PKL di Kota Batu serta membuat kebijakan yang terbaik bagi pedagang, pengunjung maupun pemerintah.</p>
+                                        <span><i class="fa fa-calendar-times-o"></i><?php echo $berita->tanggal_update ?></span><br/><!--Tanggal Update-->
+                                        <p align="justify"> <?php echo $berita->isi  ?></p>
                                     </div>
                                     <div >
                                         <p style="text-align:justify ; ">

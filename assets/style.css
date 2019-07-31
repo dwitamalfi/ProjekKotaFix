@@ -31,6 +31,15 @@
   height: 100px;
   width: auto; } }
 
+/* Form Login */
+.head {
+padding: 10px;
+padding-top: 80px;
+font-size: 20px; 
+}
+
+/* End Form Login*/
+
 * {
   margin: 0;
   padding: 0; }
@@ -199,13 +208,13 @@ img {
   padding: 150px 0 20px 0; }
 
 .section-padding-50 {
-  padding: 50px 0; }
+  padding: 30px 0; }
 
 .section-padding-50-0 {
   padding: 50px 0 0 0; }
 
 .section-padding-100-70 {
-  padding: 100px 0 70px; }
+  padding: 70px 0 20px; }
 
 .section-padding-100-50 {
   padding: 100px 0 50px; }
@@ -1433,8 +1442,14 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 
-
-
+#posterberita{
+  height: 150px;
+  width: 250px;
+}
+#posteradmin{
+  height: 120px;
+  width: 200px;
+}
 
   /* About Person area css
 ============================================================================================ */
